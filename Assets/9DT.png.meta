@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: 809a500a863c82f4bac40ea7e91946f3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 9DT-01
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1
+        width: 402
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4293e042be23062419dcf5244068a76d
+      internalID: 364404926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-02
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 361
+        width: 337
+        height: 337
+      alignment: 9
+      pivot: {x: 0.49851632, y: 0.49851632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a786515dfe11f6409036acd7476cea3
+      internalID: -889912918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-03
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1635
+        width: 412
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbcf461f84ff69498760fc9bbc9404b
+      internalID: 183649473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-04
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 761
+        width: 131
+        height: 50
+      alignment: 9
+      pivot: {x: 0.49618322, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64da6a0ee358a6640996351edfbc2e59
+      internalID: -1728896483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-05
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 813
+        width: 152
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5065789, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137d29d246e348a4db623f69939bd657
+      internalID: 1649602209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-06
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 168
+        width: 94
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a7dd2772df1fc48b0a3bef1100cf12
+      internalID: -2136948724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-07
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 1381
+        width: 178
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36680cb7e4776794fba0b68b8594d4b9
+      internalID: -1818856998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-08
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 351
+        width: 97
+        height: 76
+      alignment: 9
+      pivot: {x: 0.6082474, y: 0.4868421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93639de94d2c27749ac47966670c408b
+      internalID: -1198007630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-09
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 700
+        width: 335
+        height: 335
+      alignment: 9
+      pivot: {x: 0.50149256, y: 0.49850747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816c9273896b84a4389bfb37cac32154
+      internalID: 1793409131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-10
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1128
+        width: 212
+        height: 185
+      alignment: 9
+      pivot: {x: 0.20754717, y: 0.9081081}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c43d882bddf77541b3ef7b66e0fc274
+      internalID: 1055249669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-11
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1478
+        width: 147
+        height: 187
+      alignment: 9
+      pivot: {x: 0.63265306, y: 0.5508021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19b25a84ecd425419c485914307caa4
+      internalID: -1850554991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-12
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1
+        width: 229
+        height: 165
+      alignment: 9
+      pivot: {x: 0.49344978, y: 0.5030303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8a865ab1ee30e4694b37e76e1516a9
+      internalID: 649628350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-13
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 1169
+        width: 201
+        height: 210
+      alignment: 9
+      pivot: {x: 0.49751243, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4765b3b6b94ec6048bba29a4806e782c
+      internalID: -1861084089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-14
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 504
+        width: 177
+        height: 239
+      alignment: 9
+      pivot: {x: 0.49717513, y: 0.49372384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd6ddcea7c975e42985d7bb298786a0
+      internalID: -1798229212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 3
+        width: 244
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81d0c6c4c874d84188636301ffb47eb
+      internalID: -2059093735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 244
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d608367eb6dcb014da764424bcf81b51
+      internalID: 1396763936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-17
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78303f7216039240b2bd34c10a9d537
+      internalID: 1642795589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 243
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b2b834fda4c6946ba9baf942d78597
+      internalID: -1085361446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 745
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf27792d589c1c4d83640e0a680cae8
+      internalID: -1831687553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1447
+        width: 1000
+        height: 600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e66f91bac073ab4398ac9e4511e6d0c
+      internalID: 1671733977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-21
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 351
+        width: 244
+        height: 130
+      alignment: 9
+      pivot: {x: 0.47131148, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bb4b53cc0c84841a7633e79bccab44
+      internalID: 1146838558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-22
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1315
+        width: 283
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5441696, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339e0876a6f8f8143843258e2f2f9a5d
+      internalID: 1780026720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-23
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1037
+        width: 302
+        height: 130
+      alignment: 9
+      pivot: {x: 0.57284766, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04cdc54a1866c944b66110e406aee95
+      internalID: 1455866422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-24
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1503
+        width: 308
+        height: 130
+      alignment: 9
+      pivot: {x: 0.58116883, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8d83d8a82f62e48938dedf6a14591a
+      internalID: -428095958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-25
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1
+        width: 358
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf617df5c1eb91748bf1564ae5191af9
+      internalID: -196777427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-26
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1667
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b46093ccc7c25848a31b6ea865d0bbf
+      internalID: -1885040248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-27
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1667
+        width: 191
+        height: 380
+      alignment: 9
+      pivot: {x: 0.005235602, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb940086f948ff041a7e4d54e8b8195f
+      internalID: 1617362807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9DT-28
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 935
+        width: 191
+        height: 191
+      alignment: 9
+      pivot: {x: 0.005235602, y: 0.005235602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184d3940ca9ecbf4ea9638feaf3f6bd4
+      internalID: -1544804259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a92ddd47dbeb1df4ea79de6598810aee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      9DT-01: 364404926
+      9DT-02: -889912918
+      9DT-03: 183649473
+      9DT-04: -1728896483
+      9DT-05: 1649602209
+      9DT-06: -2136948724
+      9DT-07: -1818856998
+      9DT-08: -1198007630
+      9DT-09: 1793409131
+      9DT-10: 1055249669
+      9DT-11: -1850554991
+      9DT-12: 649628350
+      9DT-13: -1861084089
+      9DT-14: -1798229212
+      9DT-15: -2059093735
+      9DT-16: 1396763936
+      9DT-17: 1642795589
+      9DT-18: -1085361446
+      9DT-19: -1831687553
+      9DT-20: 1671733977
+      9DT-21: 1146838558
+      9DT-22: 1780026720
+      9DT-23: 1455866422
+      9DT-24: -428095958
+      9DT-25: -196777427
+      9DT-26: -1885040248
+      9DT-27: 1617362807
+      9DT-28: -1544804259
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
