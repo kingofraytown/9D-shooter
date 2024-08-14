@@ -1,8 +1,8 @@
 version: 2
 tpsheetFileNames:
-- Assets/9DT.tpsheet
+- Assets/Sprite/9DT.tpsheet
 textureFileNames:
-- Assets/9DT.png
+- Assets/Sprite/9DT.png
 normalmapFileNames:
 - 
 enableDebugOutput: 0
