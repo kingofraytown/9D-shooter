@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     public float hurtTime;
     public float hurtTimer;
     public float damageBounce;
+    public List<int> ammoCrate;
 
 
     public enum PlayerStates
@@ -41,7 +42,7 @@ public class PlayerController : MonoBehaviour
     public delegate void AddHealthDelegate(int health);
     public static event AddHealthDelegate AddHealthEvent;
 
-    public delegate void TakeAmmoDelegate(int damage);
+    public delegate void TakeAmmoDelegate(int[] ammo);
     public static event TakeAmmoDelegate TakeAmmoEvent;
 
     public delegate void PlayerDeathDelegate();
@@ -135,6 +136,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void OnSpecialAttack(InputAction.CallbackContext cc)
+    {
+
+    }
+
     void Fire() {
       if (fireRateTimer >= fireRateInterval) {
         GameObject bullet = bulletPool.GetPooledObject();
@@ -169,9 +175,45 @@ public class PlayerController : MonoBehaviour
                 break;
             case "Health":
                 AddHealthEvent(1);
+                collision.gameObject.SetActive(false);
+                break;
+            case "Ammo 1":
+                if (ammoCrate.Count < 9)
+                {
+                    LoadAmmo(1);
+                    collision.gameObject.SetActive(false);
+                }
+                break;
+            case "Ammo 2":
+                if (ammoCrate.Count < 9)
+                {
+                    LoadAmmo(2);
+                    collision.gameObject.SetActive(false);
+                }
+                break;
+            case "Ammo 3":
+                if (ammoCrate.Count < 9)
+                {
+                    LoadAmmo(3);
+                    collision.gameObject.SetActive(false);
+                }
+                break;
+            case "Ammo 4":
+                if (ammoCrate.Count < 9)
+                {
+                    LoadAmmo(4);
+                    collision.gameObject.SetActive(false);
+                }
                 break;
 
         }
+    }
+
+    public void LoadAmmo(int a)
+    {
+        ammoCrate.Add(a);
+        int[] tempArray = ammoCrate.ToArray();
+        TakeAmmoEvent(tempArray);
     }
 
     public void PlayerHit()
