@@ -11,6 +11,10 @@ public class PlayerController : MonoBehaviour
     Vector2 _movement;
     Animator animator;
     public ObjectPool bulletPool;
+    public ObjectPool ammo1Pool;
+    public ObjectPool ammo2Pool;
+    public ObjectPool ammo3Pool;
+    public ObjectPool ammo4Pool;
     public bool isFiringBullets = false;
     public Transform turret;
     public float fireRateInterval;
@@ -26,13 +30,38 @@ public class PlayerController : MonoBehaviour
     public enum PlayerStates
     {
         Idle,
-        Walking,
-        Slapping,
+        Moving,
         Hurt,
         Dead
     }
 
     public PlayerStates currentState = PlayerStates.Idle;
+
+    public enum AmmoStates
+    {
+        Normal,
+        Ammo1,
+        Ammo2,
+        Ammo3,
+        Ammo4
+    }
+
+    public AmmoStates currentAmmoState = AmmoStates.Normal;
+
+    public float ammo1FireRate;
+    public float ammo2FireRate;
+    public float ammo3FireRate;
+    public float ammo4FireRate;
+
+    public float specialAmmoTime;
+    public float specialAmmoTimer;
+
+    public float meleeTime;
+    public float meleeTimer;
+    public Animator meleeAnimator;
+    public bool meleeAttack;
+
+
     Rigidbody2D _rigidbody2D;
 
 
@@ -76,18 +105,34 @@ public class PlayerController : MonoBehaviour
             }
 
         }
+
+        if(currentAmmoState != AmmoStates.Normal)
+        {
+            specialAmmoTimer -= Time.deltaTime;
+
+            if (specialAmmoTimer <= 0)
+            {
+                currentAmmoState = AmmoStates.Normal;
+            }
+        }
+
+        if (meleeAttack)
+        {
+            meleeTimer -= Time.deltaTime;
+            if(meleeTimer <= 0)
+            {
+                meleeAttack = false;
+            }
+        }
+
+
     }
 
-    private void FixedUpdate()
-    {
-       // _rigidbody2D.AddForce(_movement * speed);
-
-    }
 
     public void OnMove(InputAction.CallbackContext cc)
     {
         _movement = cc.ReadValue<Vector2>();
-        Debug.Log(_movement);
+       // Debug.Log(_movement);
     }
 
     private void Awake()
@@ -139,11 +184,78 @@ public class PlayerController : MonoBehaviour
     public void OnSpecialAttack(InputAction.CallbackContext cc)
     {
 
+        if (cc.performed && (currentAmmoState == AmmoStates.Normal))
+        {
+            if (ammoCrate.Count > 0)
+            {
+                Debug.Log("Special Attack");
+
+
+                int newAmmo = ammoCrate[0];
+                ammoCrate.RemoveAt(0);
+                int[] tempArray = ammoCrate.ToArray();
+                TakeAmmoEvent(tempArray);
+                specialAmmoTimer = specialAmmoTime;
+
+                switch (newAmmo)
+                {
+                    case 1:
+                        currentAmmoState = AmmoStates.Ammo1;
+                        break;
+                    case 2:
+                        currentAmmoState = AmmoStates.Ammo2;
+                        break;
+                    case 3:
+                        currentAmmoState = AmmoStates.Ammo3;
+                        break;
+                    case 4:
+                        currentAmmoState = AmmoStates.Ammo4;
+                        break;
+                }
+            }
+        }
+    }
+
+    public void OnMelee(InputAction.CallbackContext cc)
+    {
+        if (cc.performed && !meleeAttack)
+        {
+            Debug.Log("swing that sword");
+            meleeAnimator.SetTrigger("attack");
+            meleeTimer = meleeTime;
+            meleeAttack = true;
+
+        }
+    }
+
+    public ObjectPool currentBulletPool()
+    {
+        ObjectPool r = bulletPool;
+        switch (currentAmmoState) {
+            case AmmoStates.Ammo1:
+                r = ammo1Pool;
+                break;
+            case AmmoStates.Ammo2:
+                r = ammo2Pool;
+                break;
+            case AmmoStates.Ammo3:
+                r = ammo3Pool;
+                break;
+            case AmmoStates.Ammo4:
+                r = ammo4Pool;
+                break;
+            default:
+                r = bulletPool;
+                break;
+        }
+
+
+        return r;
     }
 
     void Fire() {
-      if (fireRateTimer >= fireRateInterval) {
-        GameObject bullet = bulletPool.GetPooledObject();
+      if (fireRateTimer >= GetFireRate()) {
+        GameObject bullet = currentBulletPool().GetPooledObject();
         if (bullet != null)
         {
             bullet.GetComponent<BaseBullet>().Restore();
@@ -225,5 +337,29 @@ public class PlayerController : MonoBehaviour
             gameObject.transform.Translate(new Vector3(-1 * damageBounce, 0));
         }
 
+    }
+
+    public float GetFireRate()
+    {
+        float rate;
+        switch (currentAmmoState)
+        {
+            case AmmoStates.Ammo1:
+                rate = ammo1FireRate;
+                break;
+            case AmmoStates.Ammo2:
+                rate = ammo2FireRate;
+                break;
+            case AmmoStates.Ammo3:
+                rate = ammo3FireRate;
+                break;
+            case AmmoStates.Ammo4:
+                rate = ammo4FireRate;
+                break;
+            default:
+                rate = fireRateInterval;
+                break;
+        }
+        return rate;
     }
 }
