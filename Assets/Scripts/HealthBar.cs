@@ -28,14 +28,21 @@ public class HealthBar : MonoBehaviour
 
     private void OnEnable()
     {
-        PlayerController.PlayerDamageEvent += TakeDamage;
+        PlayerHealth.PlayerDamageEvent += TakeDamage;
         PlayerController.AddHealthEvent += TakeHealth;
+        PlayerController.PlayerDeathEvent += Die;
     }
 
     private void OnDisable()
     {
-        PlayerController.PlayerDamageEvent -= TakeDamage;
+        PlayerHealth.PlayerDamageEvent -= TakeDamage;
         PlayerController.AddHealthEvent -= TakeHealth;
+        PlayerController.PlayerDeathEvent -= Die;
+    }
+
+    public void Die()
+    {
+        TakeDamage(10);
     }
 
     public void TakeHealth(int h)

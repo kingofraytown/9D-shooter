@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Breakable : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
     public int health;
     public float damageTime;
     public float damageTimer;
+
+    public delegate void TakeDamageDelegate(int damage);
+    public static event TakeDamageDelegate PlayerDamageEvent;
 
 
     public enum healthState
@@ -23,6 +26,7 @@ public class Breakable : MonoBehaviour
     {
         if (currentState == healthState.Full)
         {
+            PlayerDamageEvent(d);
             health -= d;
             if (health <= 0)
             {
@@ -38,7 +42,7 @@ public class Breakable : MonoBehaviour
 
     void Update()
     {
-        if(currentState == healthState.Damaged)
+        if (currentState == healthState.Damaged)
         {
             if (damageTimer >= damageTime)
             {

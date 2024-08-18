@@ -19,6 +19,7 @@ TagManager:
   - Ammo 8
   - Ammo 9
   - Player Melee
+  - Enemy
   layers:
   - Default
   - TransparentFX

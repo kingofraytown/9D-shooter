@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    public GameObject player;
+    public Transform player;
+    public float speed = 2f;
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.position = new Vector3(player.position.x, player.position.y, transform.position.z);
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        gameObject.transform.position = player.transform.position;
+        transform.position += Vector3.right * speed * Time.deltaTime;
     }
 }
