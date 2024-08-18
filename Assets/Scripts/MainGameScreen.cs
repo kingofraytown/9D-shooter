@@ -21,4 +21,14 @@ public class MainGameScreen : MonoBehaviour
     {
         SceneManager.LoadScene("Ending");
     }
+
+    public void Retry()
+    {
+        SceneManager.LoadScene("Main Game");
+    }
+
+    public void Title()
+    {
+        SceneManager.LoadScene("Title");
+    }
 }

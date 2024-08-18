@@ -9,6 +9,12 @@ public class CountDown : MonoBehaviour
     public TMP_Text countText;
     public int timer;
     public float realTime;
+    public GameObject GameOverPanel;
+
+    public bool timesUp = false;
+
+    //public delegate void CountDownDelegate();
+    //public static event CountDownDelegate ZeroTimeEvent;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +28,13 @@ public class CountDown : MonoBehaviour
         realTime -= Time.deltaTime;
 
         int wholeTime = Mathf.CeilToInt(realTime);
+
+        if(wholeTime < 1)
+        {
+            wholeTime = 0;
+            GameOverPanel.SetActive(true);
+            //ZeroTimeEvent();
+        }
         countText.text = wholeTime.ToString();
     }
 }
