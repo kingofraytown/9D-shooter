@@ -11,6 +11,8 @@ public class HealthBar : MonoBehaviour
     public GameObject hp1;
     public GameObject hp2;
     public GameObject hp3;
+    public GameObject hp4;
+    public GameObject hp5;
 
     public int health;
    
@@ -50,25 +52,47 @@ public class HealthBar : MonoBehaviour
         health += h;
         switch (health)
         {
+            case 5:
+                hp1.SetActive(true);
+                hp2.SetActive(true);
+                hp3.SetActive(true);
+                hp4.SetActive(true);
+                hp5.SetActive(true);
+                break;
+            case 4:
+                hp1.SetActive(true);
+                hp2.SetActive(true);
+                hp3.SetActive(true);
+                hp4.SetActive(true);
+                hp5.SetActive(false);
+                break;
             case 3:
                 hp1.SetActive(true);
                 hp2.SetActive(true);
                 hp3.SetActive(true);
+                hp4.SetActive(false);
+                hp5.SetActive(false);
                 break;
             case 2:
                 hp1.SetActive(true);
                 hp2.SetActive(true);
                 hp3.SetActive(false);
+                hp4.SetActive(false);
+                hp5.SetActive(false);
                 break;
             case 1:
                 hp1.SetActive(true);
                 hp2.SetActive(false);
                 hp3.SetActive(false);
+                hp4.SetActive(false);
+                hp5.SetActive(false);
                 break;
             default:
                 hp1.SetActive(true);
                 hp2.SetActive(true);
                 hp3.SetActive(true);
+                hp4.SetActive(true);
+                hp5.SetActive(true);
                 break;
         }
     }
@@ -78,25 +102,48 @@ public class HealthBar : MonoBehaviour
         health -= d;
         switch (health)
         {
+            case 5:
+                hp1.SetActive(true);
+                hp2.SetActive(true);
+                hp3.SetActive(true);
+                hp4.SetActive(true);
+                hp5.SetActive(true);
+                break;
+            case 4:
+                hp1.SetActive(true);
+                hp2.SetActive(true);
+                hp3.SetActive(true);
+                hp4.SetActive(true);
+                hp5.SetActive(false);
+                break;
             case 3:
                 hp1.SetActive(true);
                 hp2.SetActive(true);
                 hp3.SetActive(true);
+                hp4.SetActive(false);
+                hp5.SetActive(false);
                 break;
             case 2:
                 hp1.SetActive(true);
                 hp2.SetActive(true);
                 hp3.SetActive(false);
+                hp4.SetActive(false);
+                hp5.SetActive(false);
                 break;
             case 1:
                 hp1.SetActive(true);
                 hp2.SetActive(false);
                 hp3.SetActive(false);
+                hp4.SetActive(false);
+                hp5.SetActive(false);
                 break;
             default:
                 hp1.SetActive(false);
                 hp2.SetActive(false);
                 hp3.SetActive(false);
+                hp4.SetActive(false);
+                hp5.SetActive(false);
+
                 break;
         }
 

@@ -58,6 +58,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "b352fb93-d28a-4b1b-b025-4a10cca00f84",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -162,6 +171,17 @@
                 },
                 {
                     "name": "",
+                    "id": "bb9b8ed2-b46b-45e3-98a2-e8643ed1d9e3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "d99e6438-2a13-4187-8d41-7ad4d8a7f0c9",
                     "path": "<Gamepad>/rightShoulder",
                     "interactions": "",
@@ -178,6 +198,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
+                    "action": "Special Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb1540f2-9722-44b2-8041-ac27400f831d",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Special Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -228,6 +259,17 @@
                 },
                 {
                     "name": "",
+                    "id": "d2846d72-409e-4a9b-aec9-382363461bf2",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Melee",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ae3c3340-124a-49ff-bb1b-18537d3c8ca7",
                     "path": "<Gamepad>/start",
                     "interactions": "",
@@ -245,6 +287,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f34eba46-88e0-4049-a497-37df1cb94801",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

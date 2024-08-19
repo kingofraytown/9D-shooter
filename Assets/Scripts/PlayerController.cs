@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     public float damageBounce;
     public List<int> ammoCrate;
     public GameObject GameOverPanel;
+    public GameObject WinPanel;
 
     public enum PlayerStates
     {
@@ -399,7 +400,9 @@ public class PlayerController : MonoBehaviour
                     //PlayerDamageEvent(1);
                 }
                 break;
-
+            case "Goal":
+                WinPanel.SetActive(true);
+                break;
 
         }
     }

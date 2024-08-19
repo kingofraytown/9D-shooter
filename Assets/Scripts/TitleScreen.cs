@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 public class TitleScreen : MonoBehaviour
 {
     // Start is called before the first frame update
+    public music audio;
     void Start()
     {
-        
+        audio.PlayMusic();
     }
 
     // Update is called once per frame

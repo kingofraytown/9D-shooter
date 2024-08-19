@@ -17,6 +17,7 @@ public class EnemyController : MonoBehaviour
     public float deathTime;
     public float deathTimer;
     public float distance;
+    public bool shootStraight = false;
 
     // Start is called before the first frame update
     void Start()
@@ -75,7 +76,13 @@ public class EnemyController : MonoBehaviour
             {
                 bullet.GetComponent<EnemyBullet>().Restore();
                 bullet.transform.position = gun.transform.position;
-                bullet.transform.Rotate(0, 0, targetAngle);
+                if (shootStraight)
+                {
+                    bullet.transform.Rotate(0, 0, -180);
+                } else
+                {
+                    bullet.transform.Rotate(0, 0, targetAngle);
+                }
                 bullet.SetActive(true);
                 fireRateTimer = 0;
             }
