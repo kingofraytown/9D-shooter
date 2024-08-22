@@ -9,7 +9,8 @@ public class EnemyController : MonoBehaviour
     public GameObject gun;
     public ItemDropper bag;
     public ObjectPool bullets;
-    public float fireRate;
+    public float fireRated;
+    public GameFloat fireRate;
     public float fireRateTimer;
     public float targetAngle;
     public Animator animator;
@@ -69,7 +70,7 @@ public class EnemyController : MonoBehaviour
 
     void Fire()
     {
-        if (fireRateTimer >= fireRate)
+        if (fireRateTimer >= fireRate.value())
         {
             GameObject bullet = bullets.GetPooledObject();
             if (bullet != null)
