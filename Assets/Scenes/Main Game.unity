@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -880,12 +880,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 6
@@ -896,12 +896,16 @@ PrefabInstance:
       objectReference: {fileID: 479218289}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: fireRate
-      value: 0.6
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 26342650f30a290469e99d71c6fd0547, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: lookRange
-      value: 6
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c2ac86c585c8c344903f15980fe4d88, type: 2}
     - target: {fileID: 7735278136797067752, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: Camera
       value: 
@@ -985,12 +989,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 6
@@ -1001,12 +1005,16 @@ PrefabInstance:
       objectReference: {fileID: 479218289}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: fireRate
-      value: 0.4
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 9e09ac9d3040e6b49a2f7d5681e4f108, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: lookRange
-      value: 6
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c2ac86c585c8c344903f15980fe4d88, type: 2}
     - target: {fileID: 7735278136797067752, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: Camera
       value: 
@@ -1571,12 +1579,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 6
@@ -1587,12 +1595,16 @@ PrefabInstance:
       objectReference: {fileID: 479218289}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: fireRate
-      value: 0.4
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 9e09ac9d3040e6b49a2f7d5681e4f108, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: lookRange
-      value: 6
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c2ac86c585c8c344903f15980fe4d88, type: 2}
     - target: {fileID: 7735278136797067752, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: Camera
       value: 
@@ -2319,6 +2331,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: c49ed699-c8f6-430e-8062-3b10a7d106ce
     m_ActionName: UI/New action
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b352fb93-d28a-4b1b-b025-4a10cca00f84
+    m_ActionName: Player/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -2477,6 +2493,14 @@ PrefabInstance:
       propertyPath: bag.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2822,6 +2846,14 @@ PrefabInstance:
       propertyPath: bag.Array.data[6]
       value: 
       objectReference: {fileID: 1768830592}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3440,12 +3472,12 @@ PrefabInstance:
       objectReference: {fileID: 1483679140}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 8
@@ -3454,6 +3486,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 479218289}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: fireRate
+      value: 
+      objectReference: {fileID: 11400000, guid: 26342650f30a290469e99d71c6fd0547, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: lookRange
+      value: 
+      objectReference: {fileID: 11400000, guid: 22832f8095c40a14b8674ac5e8683011, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: shootStraight
       value: 0
@@ -3632,12 +3676,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 6
@@ -3648,12 +3692,16 @@ PrefabInstance:
       objectReference: {fileID: 479218289}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: fireRate
-      value: 0.6
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 26342650f30a290469e99d71c6fd0547, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: lookRange
-      value: 6
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c2ac86c585c8c344903f15980fe4d88, type: 2}
     - target: {fileID: 7735278136797067752, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: Camera
       value: 
@@ -3735,6 +3783,14 @@ PrefabInstance:
       propertyPath: bag.Array.data[2]
       value: 
       objectReference: {fileID: 2061331252}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4045,6 +4101,14 @@ PrefabInstance:
       propertyPath: bag.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4767,12 +4831,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 6
@@ -4783,12 +4847,16 @@ PrefabInstance:
       objectReference: {fileID: 479218289}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: fireRate
-      value: 0.4
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 9e09ac9d3040e6b49a2f7d5681e4f108, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: lookRange
-      value: 6
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c2ac86c585c8c344903f15980fe4d88, type: 2}
     - target: {fileID: 7735278136797067752, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: Camera
       value: 
@@ -4936,6 +5004,14 @@ PrefabInstance:
       propertyPath: bag.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5396,12 +5472,12 @@ PrefabInstance:
       objectReference: {fileID: 1136716065}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 8
@@ -5410,6 +5486,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 479218289}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: fireRate
+      value: 
+      objectReference: {fileID: 11400000, guid: 26342650f30a290469e99d71c6fd0547, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: lookRange
+      value: 
+      objectReference: {fileID: 11400000, guid: 22832f8095c40a14b8674ac5e8683011, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: shootStraight
       value: 0
@@ -5656,12 +5744,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 6
@@ -5672,12 +5760,16 @@ PrefabInstance:
       objectReference: {fileID: 479218289}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: fireRate
-      value: 0.4
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 9e09ac9d3040e6b49a2f7d5681e4f108, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: lookRange
-      value: 6
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c2ac86c585c8c344903f15980fe4d88, type: 2}
     - target: {fileID: 7735278136797067752, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: Camera
       value: 
@@ -5943,6 +6035,14 @@ PrefabInstance:
       propertyPath: bag.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6036,6 +6136,14 @@ PrefabInstance:
       propertyPath: bag.Array.data[6]
       value: 
       objectReference: {fileID: 762328390}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7070,6 +7178,14 @@ PrefabInstance:
       propertyPath: bag.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7161,12 +7277,12 @@ PrefabInstance:
       objectReference: {fileID: 1848915932}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 8
@@ -7175,6 +7291,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 479218289}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: fireRate
+      value: 
+      objectReference: {fileID: 11400000, guid: 26342650f30a290469e99d71c6fd0547, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: lookRange
+      value: 
+      objectReference: {fileID: 11400000, guid: 22832f8095c40a14b8674ac5e8683011, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: shootStraight
       value: 0
@@ -7273,6 +7401,14 @@ PrefabInstance:
       propertyPath: bag.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7687,6 +7823,14 @@ PrefabInstance:
       propertyPath: bag.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8545,12 +8689,12 @@ PrefabInstance:
       objectReference: {fileID: 459007286}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 8
@@ -8559,6 +8703,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 479218289}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: fireRate
+      value: 
+      objectReference: {fileID: 11400000, guid: 26342650f30a290469e99d71c6fd0547, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: lookRange
+      value: 
+      objectReference: {fileID: 11400000, guid: 22832f8095c40a14b8674ac5e8683011, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: shootStraight
       value: 0
@@ -8709,12 +8865,12 @@ PrefabInstance:
       objectReference: {fileID: 409742409}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 8
@@ -8723,6 +8879,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 479218289}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: fireRate
+      value: 
+      objectReference: {fileID: 11400000, guid: 26342650f30a290469e99d71c6fd0547, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: lookRange
+      value: 
+      objectReference: {fileID: 11400000, guid: 22832f8095c40a14b8674ac5e8683011, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: shootStraight
       value: 0
@@ -9027,6 +9195,14 @@ PrefabInstance:
       propertyPath: bag.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9167,6 +9343,14 @@ PrefabInstance:
       propertyPath: bag.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9262,12 +9446,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 6
@@ -9278,12 +9462,16 @@ PrefabInstance:
       objectReference: {fileID: 479218289}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: fireRate
-      value: 0.6
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 26342650f30a290469e99d71c6fd0547, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: lookRange
-      value: 6
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c2ac86c585c8c344903f15980fe4d88, type: 2}
     - target: {fileID: 7735278136797067752, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: Camera
       value: 
@@ -9430,12 +9618,12 @@ PrefabInstance:
       objectReference: {fileID: 1861742068}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 8
@@ -9444,6 +9632,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 479218289}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: fireRate
+      value: 
+      objectReference: {fileID: 11400000, guid: 26342650f30a290469e99d71c6fd0547, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: lookRange
+      value: 
+      objectReference: {fileID: 11400000, guid: 22832f8095c40a14b8674ac5e8683011, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: shootStraight
       value: 0
@@ -9537,6 +9737,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: maxItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
+    - target: {fileID: 8622811571937574432, guid: f2c5b312a91e34041bde16102c8ddbb7, type: 3}
+      propertyPath: minItemDropRadius
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9724,12 +9932,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: maxItemDropRadius
-      value: 2
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: c4e405e3ff774ee4cb9e7137fc029287, type: 2}
     - target: {fileID: 2472994343601675666, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: minItemDropRadius
-      value: 0.25
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a4bce2f492cb2a4a967313d1c886f6e, type: 2}
     - target: {fileID: 3151123783276473746, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: amountToPool
       value: 6
@@ -9740,12 +9948,16 @@ PrefabInstance:
       objectReference: {fileID: 479218289}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: fireRate
-      value: 0.6
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 26342650f30a290469e99d71c6fd0547, type: 2}
+    - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
+      propertyPath: deathTime
+      value: 
+      objectReference: {fileID: 11400000, guid: abfc1da66311c0c468fa384d54139cc7, type: 2}
     - target: {fileID: 5259879628017711069, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: lookRange
-      value: 6
-      objectReference: {fileID: 0}
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c2ac86c585c8c344903f15980fe4d88, type: 2}
     - target: {fileID: 7735278136797067752, guid: 5cc5753312721e946a198f113d502185, type: 3}
       propertyPath: Camera
       value: 

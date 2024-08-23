@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public float lookRange;
+    public GameFloat lookRange;
+    public float lookRanged;
     public GameObject player;
     public GameObject gun;
     public ItemDropper bag;
@@ -15,7 +16,8 @@ public class EnemyController : MonoBehaviour
     public float targetAngle;
     public Animator animator;
     public Breakable health;
-    public float deathTime;
+    public GameFloat deathTime;
+    public float deathTimed;
     public float deathTimer;
     public float distance;
     public bool shootStraight = false;
@@ -35,7 +37,7 @@ public class EnemyController : MonoBehaviour
         fireRateTimer += Time.deltaTime;
 
         //if in range
-        if (distance <= lookRange)
+        if (distance <= lookRange.value())
         {
             Vector3 direction = player.transform.position - gun.transform.position;
             targetAngle = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg - 180;
@@ -54,7 +56,7 @@ public class EnemyController : MonoBehaviour
         if (health.currentState == Breakable.healthState.Destroyed)
         {
             BreakCrate();
-            deathTimer = deathTime;
+            deathTimer = deathTime.value();
             health.currentState = Breakable.healthState.None;
         }
 

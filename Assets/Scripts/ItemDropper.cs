@@ -6,8 +6,10 @@ public class ItemDropper : MonoBehaviour
 {
     public List<GameObject> bag = new List<GameObject>();
     public int items;
-    public float minItemDropRadius;
-    public float maxItemDropRadius;
+    public GameFloat minItemDropRadius;
+    public float minItemDropRadiust;
+    public GameFloat maxItemDropRadius;
+    //public float maxItemDropRadius;
     public bool empty = true;
 
     private void Start()
@@ -33,8 +35,8 @@ public class ItemDropper : MonoBehaviour
             for (int i = 0; i < bag.Count; i++)
             {
                 //get random x and y near the player
-                float rx = Random.Range(minItemDropRadius, maxItemDropRadius);
-                float ry = Random.Range(minItemDropRadius, maxItemDropRadius);
+                float rx = Random.Range(minItemDropRadius.value(), maxItemDropRadius.value());
+                float ry = Random.Range(minItemDropRadius.value(), maxItemDropRadius.value());
                 int coin = Random.Range(0, 2);
                 if (coin == 0)
                 {
