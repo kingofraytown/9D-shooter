@@ -6,9 +6,9 @@ using UnityEngine;
 public class GameInt : ScriptableObject
 {
     [SerializeField]
-    float gameInt;
+    int gameInt;
 
-    public float value()
+    public int value()
     {
         return gameInt;
     }
