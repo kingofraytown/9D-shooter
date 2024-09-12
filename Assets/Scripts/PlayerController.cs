@@ -71,6 +71,7 @@ public class PlayerController : MonoBehaviour
     public float maxX = 8f;
     public float minY = -4f;
     public float maxY = 4f;
+    public PlayerTarget playerTarget;
 
     Vector3 currentVelocity;
     Vector3 targetPosition;
@@ -107,7 +108,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerTarget.RegisterPlayer(this);
     }
 
     // Update is called once per frame

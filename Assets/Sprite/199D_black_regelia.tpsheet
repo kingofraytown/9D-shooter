@@ -1,0 +1,23 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:e53af2336c878b4ba3600ebc6c2b708c:b494115abb8a7bf19a21406835085511:67c52f3417a787161ade6ff3da04facb$
+#
+:format=40300
+:texture=199D_black_regelia.png
+:size=512x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+199D Sprite-17;30;734;260;260; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p1;183;459;58;68; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p2;30;579;93;95; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p3;183;587;92;87; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p4;350;588;96;98; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p5;350;898;131;96; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p6;350;746;102;92; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p7;335;417;85;111; 0.5;0.5; 0;0;0;0

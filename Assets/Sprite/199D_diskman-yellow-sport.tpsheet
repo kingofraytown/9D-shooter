@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:74a5deb672999d0645b8102fdc1ef298:73a64abddce637832cd437480ac6ef24:f19c6d815a53a30c4b948b242881e3dc$
+#
+:format=40300
+:texture=199D_diskman-yellow-sport.png
+:size=512x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+199D Sprite-16;35;735;273;254; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p1;375;507;81;91; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p2;221;530;84;135; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p3;35;418;108;79; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p4;378;870;99;119; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p5;378;668;90;132; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p6;35;567;116;98; 0.5;0.5; 0;0;0;0

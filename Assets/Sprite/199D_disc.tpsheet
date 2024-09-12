@@ -1,0 +1,24 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:fa4ddd3b36e0d7593faff132f74a4052:19456dfd7c0785f902bd8414c8d8f919:1385ecb0a971140583180e81319b1f7a$
+#
+:format=40300
+:texture=199D_disc.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+199D-Sprite-06;5;1473;570;570; 0.5;0.5; 0;0;0;0
+199D-Sprite-07;5;893;570;570; 0.5;0.5; 0;0;0;0
+199D-Sprite-08;5;313;570;570; 0.5;0.5; 0;0;0;0
+199D-Sprite-09;585;1473;570;570; 0.5;0.5; 0;0;0;0
+199D-Sprite-10;1165;1473;570;570; 0.5;0.5; 0;0;0;0
+199D-Sprite-11;585;893;570;570; 0.5;0.5; 0;0;0;0
+199D-Sprite-12;585;313;570;570; 0.5;0.5; 0;0;0;0
+199D-Sprite-13;1165;893;570;570; 0.5;0.5; 0;0;0;0
+199D-Sprite-14;1165;313;570;570; 0.5;0.5; 0;0;0;0
