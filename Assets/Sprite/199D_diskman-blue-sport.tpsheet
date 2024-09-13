@@ -4,20 +4,20 @@
 # To import these sprites into your Unity project, download "TexturePackerImporter":
 # https://www.codeandweb.com/texturepacker/unity
 #
-# $TexturePacker:SmartUpdate:e28675979cc32bd11dc1e5bac100609d:675d2dd117d8d9a97de918352e53f147:97b51fa19d9e1ae2f25136a846867a31$
+# $TexturePacker:SmartUpdate:cd10073ab25b444db0346602ed638572:675d2dd117d8d9a97de918352e53f147:97b51fa19d9e1ae2f25136a846867a31$
 #
 :format=40300
 :texture=199D_diskman-blue-sport.png
-:size=512x1024
+:size=512x512
 :pivotpoints=enabled
 :borders=disabled
 :alphahandling=ClearTransparentPixels
 
-199D Sprite-18;35;735;273;254; 0.5;0.5; 0;0;0;0
-199D-Sprite-18-p1;378;730;90;76; 0.5;0.5; 0;0;0;0
-199D-Sprite-18-p2;217;549;86;116; 0.5;0.5; 0;0;0;0
-199D-Sprite-18-p3;373;548;79;112; 0.5;0.5; 0;0;0;0
-199D-Sprite-18-p4;35;590;112;75; 0.5;0.5; 0;0;0;0
-199D-Sprite-18-p5;214;395;105;83; 0.5;0.5; 0;0;0;0
-199D-Sprite-18-p6;378;876;99;113; 0.5;0.5; 0;0;0;0
-199D-Sprite-18-p7;35;410;109;110; 0.5;0.5; 0;0;0;0
+199D Sprite-18;4;230;297;278; 0.5;0.5; 0;0;0;0
+199D-Sprite-18-p1;364;44;114;100; 0.5;0.5; 0;0;0;0
+199D-Sprite-18-p2;4;4;110;140; 0.5;0.5; 0;0;0;0
+199D-Sprite-18-p3;253;8;103;136; 0.5;0.5; 0;0;0;0
+199D-Sprite-18-p4;309;409;136;99; 0.5;0.5; 0;0;0;0
+199D-Sprite-18-p5;309;152;129;107; 0.5;0.5; 0;0;0;0
+199D-Sprite-18-p6;122;7;123;137; 0.5;0.5; 0;0;0;0
+199D-Sprite-18-p7;309;267;133;134; 0.5;0.5; 0;0;0;0

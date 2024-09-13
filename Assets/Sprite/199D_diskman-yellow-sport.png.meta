@@ -113,10 +113,10 @@ TextureImporter:
       name: 199D Sprite-16
       rect:
         serializedVersion: 2
-        x: 35
-        y: 735
-        width: 273
-        height: 254
+        x: 4
+        y: 224
+        width: 303
+        height: 284
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: 199D-Sprite-16-p1
       rect:
         serializedVersion: 2
-        x: 375
-        y: 507
-        width: 81
-        height: 91
+        x: 391
+        y: 134
+        width: 111
+        height: 121
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: 199D-Sprite-16-p2
       rect:
         serializedVersion: 2
-        x: 221
-        y: 530
-        width: 84
-        height: 135
+        x: 4
+        y: 51
+        width: 114
+        height: 165
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: 199D-Sprite-16-p3
       rect:
         serializedVersion: 2
-        x: 35
-        y: 418
-        width: 108
-        height: 79
+        x: 315
+        y: 263
+        width: 138
+        height: 109
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: 199D-Sprite-16-p4
       rect:
         serializedVersion: 2
-        x: 378
-        y: 870
-        width: 99
-        height: 119
+        x: 254
+        y: 67
+        width: 129
+        height: 149
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: 199D-Sprite-16-p5
       rect:
         serializedVersion: 2
-        x: 378
-        y: 668
-        width: 90
-        height: 132
+        x: 126
+        y: 54
+        width: 120
+        height: 162
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: 199D-Sprite-16-p6
       rect:
         serializedVersion: 2
-        x: 35
-        y: 567
-        width: 116
-        height: 98
+        x: 315
+        y: 380
+        width: 146
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

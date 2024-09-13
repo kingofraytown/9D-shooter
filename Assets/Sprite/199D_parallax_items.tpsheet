@@ -4,7 +4,7 @@
 # To import these sprites into your Unity project, download "TexturePackerImporter":
 # https://www.codeandweb.com/texturepacker/unity
 #
-# $TexturePacker:SmartUpdate:2d28d21a7a48bbe04ffb6f0d1dcad448:1603e92745ca97c5fe3dacf6a055ee50:d757b883f37502227dba0b8eb0eb843f$
+# $TexturePacker:SmartUpdate:9d964619fb80f81e1bb032652aba97a7:1603e92745ca97c5fe3dacf6a055ee50:d757b883f37502227dba0b8eb0eb843f$
 #
 :format=40300
 :texture=199D_parallax_items.png
@@ -13,12 +13,12 @@
 :borders=disabled
 :alphahandling=ClearTransparentPixels
 
-Memphis Parallax Parts-01;247;424;140;122; 0.5;0.5; 0;0;0;0
-Memphis Parallax Parts-02;306;844;168;145; 0.5;0.5; 0;0;0;0
-Memphis Parallax Parts-03;35;511;142;142; 0.5;0.5; 0;0;0;0
-Memphis Parallax Parts-04;35;723;158;158; 0.5;0.5; 0;0;0;0
-Memphis Parallax Parts-05;35;951;201;38; 0.5;0.5; 0;0;0;0
-Memphis Parallax Parts-06;35;263;83;178; 0.5;0.5; 0;0;0;0
-Memphis Parallax Parts-07;188;158;63;196; 0.5;0.5; 0;0;0;0
-Memphis Parallax Parts-08;321;164;60;190; 0.5;0.5; 0;0;0;0
-Memphis Parallax Parts-09;263;616;158;158; 0.5;0.5; 0;0;0;0
+Memphis Parallax Parts-01;193;466;176;158; 0.5;0.5; 0;0;0;0
+Memphis Parallax Parts-02;252;838;204;181; 0.5;0.5; 0;0;0;0
+Memphis Parallax Parts-03;5;553;178;178; 0.5;0.5; 0;0;0;0
+Memphis Parallax Parts-04;5;741;194;194; 0.5;0.5; 0;0;0;0
+Memphis Parallax Parts-05;5;945;237;74; 0.5;0.5; 0;0;0;0
+Memphis Parallax Parts-06;379;410;119;214; 0.5;0.5; 0;0;0;0
+Memphis Parallax Parts-07;5;311;99;232; 0.5;0.5; 0;0;0;0
+Memphis Parallax Parts-08;5;75;96;226; 0.5;0.5; 0;0;0;0
+Memphis Parallax Parts-09;209;634;194;194; 0.5;0.5; 0;0;0;0

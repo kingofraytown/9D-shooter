@@ -4,20 +4,21 @@
 # To import these sprites into your Unity project, download "TexturePackerImporter":
 # https://www.codeandweb.com/texturepacker/unity
 #
-# $TexturePacker:SmartUpdate:e53af2336c878b4ba3600ebc6c2b708c:b494115abb8a7bf19a21406835085511:67c52f3417a787161ade6ff3da04facb$
+# $TexturePacker:SmartUpdate:79c9fc5cd888cf2f7f856feb74bc8288:938ad7136a16adb212867799388c1468:67c52f3417a787161ade6ff3da04facb$
 #
 :format=40300
 :texture=199D_black_regelia.png
-:size=512x1024
+:size=512x512
 :pivotpoints=enabled
 :borders=disabled
 :alphahandling=ClearTransparentPixels
 
-199D Sprite-17;30;734;260;260; 0.5;0.5; 0;0;0;0
-199D-Sprite-17-p1;183;459;58;68; 0.5;0.5; 0;0;0;0
-199D-Sprite-17-p2;30;579;93;95; 0.5;0.5; 0;0;0;0
-199D-Sprite-17-p3;183;587;92;87; 0.5;0.5; 0;0;0;0
-199D-Sprite-17-p4;350;588;96;98; 0.5;0.5; 0;0;0;0
-199D-Sprite-17-p5;350;898;131;96; 0.5;0.5; 0;0;0;0
-199D-Sprite-17-p6;350;746;102;92; 0.5;0.5; 0;0;0;0
-199D-Sprite-17-p7;335;417;85;111; 0.5;0.5; 0;0;0;0
+199D Sprite-17;3;225;284;284; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p1;425;291;82;92; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p2;244;100;117;119; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p3;367;150;116;111; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p4;118;97;120;122; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p5;293;389;155;120; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p6;293;267;126;116; 0.5;0.5; 0;0;0;0
+199D-Sprite-17-p7;3;84;109;135; 0.5;0.5; 0;0;0;0
+199D-Sprite-18-p1;367;44;114;100; 0.5;0.5; 0;0;0;0

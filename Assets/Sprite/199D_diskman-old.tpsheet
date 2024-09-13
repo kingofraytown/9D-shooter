@@ -4,7 +4,7 @@
 # To import these sprites into your Unity project, download "TexturePackerImporter":
 # https://www.codeandweb.com/texturepacker/unity
 #
-# $TexturePacker:SmartUpdate:d59e070137607ab078578b2fd74b71ec:5fa33fb1f5c9d0143522a8aefbf67a32:998eacbefcafbdd92e9f43816637baab$
+# $TexturePacker:SmartUpdate:2867202cdc1b718118df2c97811d6066:5fa33fb1f5c9d0143522a8aefbf67a32:998eacbefcafbdd92e9f43816637baab$
 #
 :format=40300
 :texture=199D_diskman-old.png
@@ -13,11 +13,11 @@
 :borders=disabled
 :alphahandling=ClearTransparentPixels
 
-199D Sprite-15;35;724;259;265; 0.5;0.5; 0;0;0;0
-199D-Sprite-15-p1;35;45;90;84; 0.5;0.5; 0;0;0;0
-199D-Sprite-15-p2;35;199;94;89; 0.5;0.5; 0;0;0;0
-199D-Sprite-15-p3;364;875;105;114; 0.5;0.5; 0;0;0;0
-199D-Sprite-15-p4;364;669;95;136; 0.5;0.5; 0;0;0;0
-199D-Sprite-15-p5;35;563;147;91; 0.5;0.5; 0;0;0;0
-199D-Sprite-15-p6;35;358;94;135; 0.5;0.5; 0;0;0;0
-199D-Sprite-15-p7;252;468;131;131; 0.5;0.5; 0;0;0;0
+199D Sprite-15;4;733;281;287; 0.5;0.5; 0;0;0;0
+199D-Sprite-15-p1;129;454;112;106; 0.5;0.5; 0;0;0;0
+199D-Sprite-15-p2;253;483;116;111; 0.5;0.5; 0;0;0;0
+199D-Sprite-15-p3;293;602;127;136; 0.5;0.5; 0;0;0;0
+199D-Sprite-15-p4;4;567;117;158; 0.5;0.5; 0;0;0;0
+199D-Sprite-15-p5;293;907;169;113; 0.5;0.5; 0;0;0;0
+199D-Sprite-15-p6;129;568;116;157; 0.5;0.5; 0;0;0;0
+199D-Sprite-15-p7;293;746;153;153; 0.5;0.5; 0;0;0;0

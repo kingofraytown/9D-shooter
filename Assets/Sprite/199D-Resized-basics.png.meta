@@ -113,12 +113,12 @@ TextureImporter:
       name: 199D Sprite-01
       rect:
         serializedVersion: 2
-        x: 190
-        y: 1149
-        width: 244
-        height: 186
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5107527}
+        x: 4
+        y: 1824
+        width: 278
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: 199D Sprite-02
       rect:
         serializedVersion: 2
-        x: 35
-        y: 1715
-        width: 126
-        height: 298
-      alignment: 9
-      pivot: {x: 0.48412699, y: 0.5067114}
+        x: 807
+        y: 543
+        width: 160
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: 199D Sprite-03
       rect:
         serializedVersion: 2
-        x: 685
-        y: 300
-        width: 14
-        height: 137
-      alignment: 9
-      pivot: {x: 0.5, y: -0.6423358}
+        x: 445
+        y: 1220
+        width: 48
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,10 +176,10 @@ TextureImporter:
       name: 199D Sprite-04
       rect:
         serializedVersion: 2
-        x: 1065
-        y: 916
-        width: 90
-        height: 94
+        x: 674
+        y: 618
+        width: 124
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,12 +197,12 @@ TextureImporter:
       name: 199D Sprite-05
       rect:
         serializedVersion: 2
-        x: 718
-        y: 1236
-        width: 100
-        height: 104
-      alignment: 9
-      pivot: {x: 0.51, y: 0.4903846}
+        x: 149
+        y: 197
+        width: 134
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,10 +218,10 @@ TextureImporter:
       name: 199D Sprite-06
       rect:
         serializedVersion: 2
-        x: 253
-        y: 438
-        width: 144
-        height: 144
+        x: 807
+        y: 883
+        width: 178
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: 199D Sprite-07
       rect:
         serializedVersion: 2
-        x: 260
-        y: 657
-        width: 144
-        height: 144
+        x: 4
+        y: 1209
+        width: 178
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: 199D Sprite-08
       rect:
         serializedVersion: 2
-        x: 257
-        y: 224
-        width: 144
-        height: 144
+        x: 190
+        y: 1026
+        width: 178
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: 199D Sprite-09
       rect:
         serializedVersion: 2
-        x: 467
-        y: 443
-        width: 144
-        height: 144
+        x: 4
+        y: 1023
+        width: 178
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: 199D Sprite-10
       rect:
         serializedVersion: 2
-        x: 471
-        y: 229
-        width: 144
-        height: 144
+        x: 190
+        y: 840
+        width: 178
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +323,10 @@ TextureImporter:
       name: 199D Sprite-11
       rect:
         serializedVersion: 2
-        x: 296
-        y: 935
-        width: 144
-        height: 144
+        x: 4
+        y: 837
+        width: 178
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: 199D Sprite-12
       rect:
         serializedVersion: 2
-        x: 504
-        y: 1195
-        width: 144
-        height: 144
+        x: 489
+        y: 895
+        width: 178
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: 199D Sprite-13
       rect:
         serializedVersion: 2
-        x: 474
-        y: 721
-        width: 144
-        height: 144
+        x: 488
+        y: 709
+        width: 178
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: 199D Sprite-14
       rect:
         serializedVersion: 2
-        x: 510
-        y: 981
-        width: 144
-        height: 144
+        x: 190
+        y: 654
+        width: 178
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,10 +407,10 @@ TextureImporter:
       name: 199D Sprite-21
       rect:
         serializedVersion: 2
-        x: 231
-        y: 1793
-        width: 220
-        height: 220
+        x: 555
+        y: 1790
+        width: 254
+        height: 254
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,12 +428,12 @@ TextureImporter:
       name: 199D Sprite-22
       rect:
         serializedVersion: 2
-        x: 35
-        y: 1405
-        width: 172
-        height: 240
-      alignment: 9
-      pivot: {x: 0.5116279, y: 0.51666665}
+        x: 813
+        y: 1383
+        width: 206
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -449,12 +449,12 @@ TextureImporter:
       name: 199D Sprite-23
       rect:
         serializedVersion: 2
-        x: 35
-        y: 1136
-        width: 85
-        height: 199
-      alignment: 9
-      pivot: {x: 0.5411765, y: 0.50753766}
+        x: 409
+        y: 49
+        width: 119
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -470,12 +470,12 @@ TextureImporter:
       name: 199D Sprite-24
       rect:
         serializedVersion: 2
-        x: 724
-        y: 1066
-        width: 205
-        height: 100
-      alignment: 9
-      pivot: {x: 0.32682925, y: 0.79}
+        x: 4
+        y: 1395
+        width: 239
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -491,12 +491,12 @@ TextureImporter:
       name: 199D Sprite-25
       rect:
         serializedVersion: 2
-        x: 1224
-        y: 1743
-        width: 213
-        height: 100
-      alignment: 9
-      pivot: {x: 0.57746476, y: 0.57}
+        x: 4
+        y: 1537
+        width: 247
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -512,12 +512,12 @@ TextureImporter:
       name: 199D Sprite-26
       rect:
         serializedVersion: 2
-        x: 1325
-        y: 1913
-        width: 206
-        height: 100
-      alignment: 9
-      pivot: {x: 0.5436893, y: 0.55}
+        x: 259
+        y: 1481
+        width: 240
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -533,12 +533,12 @@ TextureImporter:
       name: 199D Sprite-27
       rect:
         serializedVersion: 2
-        x: 744
-        y: 1910
-        width: 218
-        height: 103
-      alignment: 9
-      pivot: {x: 0.53669727, y: 0.52427185}
+        x: 4
+        y: 1679
+        width: 252
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -554,12 +554,12 @@ TextureImporter:
       name: 199D Sprite-28
       rect:
         serializedVersion: 2
-        x: 1032
-        y: 1913
-        width: 223
-        height: 100
-      alignment: 9
-      pivot: {x: 0.5381166, y: 0.52}
+        x: 290
+        y: 1910
+        width: 257
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -575,12 +575,12 @@ TextureImporter:
       name: 199D Sprite-29
       rect:
         serializedVersion: 2
-        x: 935
-        y: 1739
-        width: 219
-        height: 101
-      alignment: 9
-      pivot: {x: 0.46575344, y: 0.5841584}
+        x: 552
+        y: 1647
+        width: 253
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -596,12 +596,12 @@ TextureImporter:
       name: 199D Sprite-30
       rect:
         serializedVersion: 2
-        x: 888
-        y: 1245
-        width: 218
-        height: 99
-      alignment: 9
-      pivot: {x: 0.5229358, y: 0.46464646}
+        x: 264
+        y: 1623
+        width: 252
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -617,12 +617,12 @@ TextureImporter:
       name: 199D Sprite-31
       rect:
         serializedVersion: 2
-        x: 946
-        y: 1572
-        width: 211
-        height: 97
-      alignment: 9
-      pivot: {x: 0.521327, y: 0.52577317}
+        x: 524
+        y: 1508
+        width: 245
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -638,12 +638,12 @@ TextureImporter:
       name: 199D Sprite-32
       rect:
         serializedVersion: 2
-        x: 645
-        y: 1687
-        width: 220
-        height: 104
-      alignment: 9
-      pivot: {x: 0.50454545, y: 0.58653843}
+        x: 290
+        y: 1764
+        width: 254
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -659,12 +659,12 @@ TextureImporter:
       name: 199D Sprite-33
       rect:
         serializedVersion: 2
-        x: 900
-        y: 772
-        width: 55
-        height: 58
-      alignment: 9
-      pivot: {x: 0.38181818, y: 0.06896552}
+        x: 923
+        y: 443
+        width: 89
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -680,12 +680,12 @@ TextureImporter:
       name: 199D Sprite-34
       rect:
         serializedVersion: 2
-        x: 1145
-        y: 1082
-        width: 91
-        height: 93
-      alignment: 9
-      pivot: {x: 0.3956044, y: 0.23655914}
+        x: 674
+        y: 754
+        width: 125
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -701,12 +701,12 @@ TextureImporter:
       name: 199D Sprite-35
       rect:
         serializedVersion: 2
-        x: 35
-        y: 219
-        width: 152
-        height: 145
-      alignment: 9
-      pivot: {x: 0.5, y: 0.49655172}
+        x: 251
+        y: 1212
+        width: 186
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -722,12 +722,12 @@ TextureImporter:
       name: 199D Sprite-36
       rect:
         serializedVersion: 2
-        x: 35
-        y: 35
-        width: 101
-        height: 114
-      alignment: 9
-      pivot: {x: 0.5841584, y: 0.05263158}
+        x: 296
+        y: 290
+        width: 135
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -743,12 +743,12 @@ TextureImporter:
       name: 199D Sprite-37
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1429
-        width: 71
-        height: 76
-      alignment: 9
-      pivot: {x: 0.5492958, y: 0.2631579}
+        x: 376
+        y: 972
+        width: 105
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -764,12 +764,12 @@ TextureImporter:
       name: 199D Sprite-38
       rect:
         serializedVersion: 2
-        x: 816
-        y: 124
-        width: 84
-        height: 116
-      alignment: 9
-      pivot: {x: 0.61904764, y: 0.30172414}
+        x: 665
+        y: 245
+        width: 118
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -785,12 +785,12 @@ TextureImporter:
       name: 199D Sprite-39
       rect:
         serializedVersion: 2
-        x: 1601
-        y: 1947
-        width: 84
-        height: 66
-      alignment: 9
-      pivot: {x: 0.5, y: 0.74242425}
+        x: 536
+        y: 200
+        width: 118
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -806,12 +806,12 @@ TextureImporter:
       name: 199D Sprite-40
       rect:
         serializedVersion: 2
-        x: 1025
-        y: 788
-        width: 60
-        height: 42
-      alignment: 9
-      pivot: {x: 0.46666667, y: 0.5}
+        x: 376
+        y: 688
+        width: 94
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -827,12 +827,12 @@ TextureImporter:
       name: 199D Sprite-41
       rect:
         serializedVersion: 2
-        x: 1225
-        y: 950
-        width: 59
-        height: 62
-      alignment: 9
-      pivot: {x: 0.3898305, y: 0.09677419}
+        x: 376
+        y: 584
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -848,12 +848,12 @@ TextureImporter:
       name: 199D Sprite-42
       rect:
         serializedVersion: 2
-        x: 900
-        y: 900
-        width: 95
-        height: 96
-      alignment: 9
-      pivot: {x: 0.4, y: 0.23958333}
+        x: 338
+        y: 446
+        width: 129
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -869,12 +869,12 @@ TextureImporter:
       name: 199D Sprite-43
       rect:
         serializedVersion: 2
-        x: 35
-        y: 652
-        width: 155
-        height: 149
-      alignment: 9
-      pivot: {x: 0.4967742, y: 0.4966443}
+        x: 817
+        y: 1861
+        width: 189
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -890,12 +890,12 @@ TextureImporter:
       name: 199D Sprite-44
       rect:
         serializedVersion: 2
-        x: 304
-        y: 35
-        width: 104
-        height: 119
-      alignment: 9
-      pivot: {x: 0.52884614, y: 0.33613446}
+        x: 4
+        y: 492
+        width: 138
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -911,12 +911,12 @@ TextureImporter:
       name: 199D Sprite-45
       rect:
         serializedVersion: 2
-        x: 377
-        y: 1409
-        width: 73
-        height: 80
-      alignment: 9
-      pivot: {x: 0.5479452, y: 0.25}
+        x: 376
+        y: 1090
+        width: 107
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -932,12 +932,12 @@ TextureImporter:
       name: 199D Sprite-46
       rect:
         serializedVersion: 2
-        x: 478
-        y: 40
-        width: 88
-        height: 119
-      alignment: 9
-      pivot: {x: 0.6136364, y: 0.31092438}
+        x: 793
+        y: 382
+        width: 122
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -953,12 +953,12 @@ TextureImporter:
       name: 199D Sprite-47
       rect:
         serializedVersion: 2
-        x: 1507
-        y: 1774
-        width: 86
-        height: 69
-      alignment: 9
-      pivot: {x: 0.5, y: 0.7246377}
+        x: 665
+        y: 403
+        width: 120
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -974,12 +974,12 @@ TextureImporter:
       name: 199D Sprite-48
       rect:
         serializedVersion: 2
-        x: 645
-        y: 1571
-        width: 63
-        height: 46
-      alignment: 9
-      pivot: {x: 0.47619048, y: 0.5}
+        x: 376
+        y: 772
+        width: 97
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -995,12 +995,12 @@ TextureImporter:
       name: 199D Sprite-49
       rect:
         serializedVersion: 2
-        x: 688
-        y: 769
-        width: 142
-        height: 142
-      alignment: 9
-      pivot: {x: 0.5070422, y: 0.49295774}
+        x: 4
+        y: 653
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1016,12 +1016,12 @@ TextureImporter:
       name: 199D Sprite-50
       rect:
         serializedVersion: 2
-        x: 421
-        y: 1569
-        width: 154
-        height: 154
-      alignment: 9
-      pivot: {x: 0.5064935, y: 0.5}
+        x: 817
+        y: 1665
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1037,12 +1037,12 @@ TextureImporter:
       name: 199D Sprite-51
       rect:
         serializedVersion: 2
-        x: 521
-        y: 1861
-        width: 153
-        height: 152
-      alignment: 9
-      pivot: {x: 0.48366013, y: 0.48026314}
+        x: 810
+        y: 1189
+        width: 187
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1058,10 +1058,10 @@ TextureImporter:
       name: 199D Sprite-52
       rect:
         serializedVersion: 2
-        x: 35
-        y: 434
-        width: 148
-        height: 148
+        x: 501
+        y: 1081
+        width: 182
+        height: 182
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1079,12 +1079,12 @@ TextureImporter:
       name: 199D Sprite-53
       rect:
         serializedVersion: 2
-        x: 693
-        y: 1410
-        width: 54
-        height: 91
-      alignment: 9
-      pivot: {x: 0.5, y: 0.48351648}
+        x: 439
+        y: 305
+        width: 88
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1100,10 +1100,10 @@ TextureImporter:
       name: 199D Sprite-54
       rect:
         serializedVersion: 2
-        x: 277
-        y: 1407
-        width: 30
-        height: 82
+        x: 740
+        y: 1384
+        width: 64
+        height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1121,10 +1121,10 @@ TextureImporter:
       name: 199D Sprite-55
       rect:
         serializedVersion: 2
-        x: 1395
-        y: 1603
-        width: 70
-        height: 70
+        x: 376
+        y: 860
+        width: 104
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1142,10 +1142,10 @@ TextureImporter:
       name: 199D Sprite-56
       rect:
         serializedVersion: 2
-        x: 1155
-        y: 806
-        width: 184
-        height: 40
+        x: 251
+        y: 1399
+        width: 218
+        height: 74
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,10 +1163,10 @@ TextureImporter:
       name: 199D Sprite-57
       rect:
         serializedVersion: 2
-        x: 1033
-        y: 656
-        width: 112
-        height: 62
+        x: 639
+        y: 514
+        width: 146
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1184,12 +1184,12 @@ TextureImporter:
       name: 199D Sprite-58
       rect:
         serializedVersion: 2
-        x: 277
-        y: 1559
-        width: 74
-        height: 164
-      alignment: 9
-      pivot: {x: 0.7027027, y: 0.46341464}
+        x: 691
+        y: 889
+        width: 108
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1205,12 +1205,12 @@ TextureImporter:
       name: 199D Sprite-59
       rect:
         serializedVersion: 2
-        x: 778
-        y: 1572
-        width: 98
-        height: 45
-      alignment: 9
-      pivot: {x: 0.5, y: 0.46666667}
+        x: 4
+        y: 16
+        width: 132
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1226,12 +1226,12 @@ TextureImporter:
       name: 199D Sprite-60
       rect:
         serializedVersion: 2
-        x: 932
-        y: 405
-        width: 110
-        height: 108
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4814815}
+        x: 477
+        y: 438
+        width: 144
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1247,12 +1247,12 @@ TextureImporter:
       name: 199D Sprite-61
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 1268
-        width: 145
-        height: 78
-      alignment: 9
-      pivot: {x: 0.73103446, y: 0.5}
+        x: 809
+        y: 1069
+        width: 179
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1268,10 +1268,10 @@ TextureImporter:
       name: 199D Sprite-62
       rect:
         serializedVersion: 2
-        x: 1306
-        y: 1136
-        width: 24
-        height: 62
+        x: 923
+        y: 339
+        width: 58
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1289,10 +1289,10 @@ TextureImporter:
       name: 199D Sprite-63
       rect:
         serializedVersion: 2
-        x: 206
-        y: 39
-        width: 28
-        height: 110
+        x: 740
+        y: 1232
+        width: 62
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1310,10 +1310,10 @@ TextureImporter:
       name: 199D Sprite-64
       rect:
         serializedVersion: 2
-        x: 817
-        y: 1414
-        width: 88
-        height: 88
+        x: 535
+        y: 308
+        width: 122
+        height: 122
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1331,10 +1331,10 @@ TextureImporter:
       name: 199D Sprite-65
       rect:
         serializedVersion: 2
-        x: 1227
-        y: 1575
-        width: 98
-        height: 98
+        x: 4
+        y: 103
+        width: 132
+        height: 132
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1352,12 +1352,12 @@ TextureImporter:
       name: 199D Sprite-66
       rect:
         serializedVersion: 2
-        x: 35
-        y: 871
-        width: 191
-        height: 195
-      alignment: 9
-      pivot: {x: 0.486911, y: 0.51794875}
+        x: 507
+        y: 1271
+        width: 225
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1373,12 +1373,12 @@ TextureImporter:
       name: box-p1
       rect:
         serializedVersion: 2
-        x: 1164
-        y: 1416
-        width: 110
-        height: 86
-      alignment: 9
-      pivot: {x: -0.10909091, y: -0.39534885}
+        x: 4
+        y: 243
+        width: 137
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1394,12 +1394,12 @@ TextureImporter:
       name: box-p2
       rect:
         serializedVersion: 2
-        x: 849
-        y: 583
-        width: 114
-        height: 116
-      alignment: 9
-      pivot: {x: -0.06140351, y: 0.21551724}
+        x: 188
+        y: 496
+        width: 142
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1415,12 +1415,12 @@ TextureImporter:
       name: box-p3
       rect:
         serializedVersion: 2
-        x: 636
-        y: 42
-        width: 110
-        height: 117
-      alignment: 9
-      pivot: {x: -0.1, y: 1.034188}
+        x: 150
+        y: 343
+        width: 138
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1436,12 +1436,12 @@ TextureImporter:
       name: box-p4
       rect:
         serializedVersion: 2
-        x: 999
-        y: 1080
-        width: 76
-        height: 95
-      alignment: 9
-      pivot: {x: 0.59210527, y: 0.5368421}
+        x: 691
+        y: 1095
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1457,12 +1457,12 @@ TextureImporter:
       name: box-p5
       rect:
         serializedVersion: 2
-        x: 975
-        y: 1416
-        width: 119
-        height: 86
-      alignment: 9
-      pivot: {x: 0.47058824, y: 1.4186046}
+        x: 478
+        y: 588
+        width: 153
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1478,12 +1478,12 @@ TextureImporter:
       name: box-p6
       rect:
         serializedVersion: 2
-        x: 520
-        y: 1410
-        width: 103
-        height: 89
-      alignment: 9
-      pivot: {x: 0.7378641, y: -0.3483146}
+        x: 4
+        y: 366
+        width: 137
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1499,12 +1499,12 @@ TextureImporter:
       name: box-p7
       rect:
         serializedVersion: 2
-        x: 769
-        y: 310
-        width: 93
-        height: 127
-      alignment: 9
-      pivot: {x: 1.2903225, y: 0.05511811}
+        x: 279
+        y: 33
+        width: 122
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1520,12 +1520,12 @@ TextureImporter:
       name: box-p8
       rect:
         serializedVersion: 2
-        x: 681
-        y: 507
-        width: 98
-        height: 144
-      alignment: 9
-      pivot: {x: 1.2244898, y: 0.8472222}
+        x: 144
+        y: 18
+        width: 127
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

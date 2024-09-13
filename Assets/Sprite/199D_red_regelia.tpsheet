@@ -4,20 +4,20 @@
 # To import these sprites into your Unity project, download "TexturePackerImporter":
 # https://www.codeandweb.com/texturepacker/unity
 #
-# $TexturePacker:SmartUpdate:553c50ac406d9b885a8df81914027572:9abfa8596ac950b800a74bbc991c98f1:7ae2f75a5330cd71bff018814314d7aa$
+# $TexturePacker:SmartUpdate:529546ec73682e495e2df11a0aeabfee:9abfa8596ac950b800a74bbc991c98f1:7ae2f75a5330cd71bff018814314d7aa$
 #
 :format=40300
 :texture=199D_red_regelia.png
-:size=512x1024
+:size=512x512
 :pivotpoints=enabled
 :borders=disabled
 :alphahandling=ClearTransparentPixels
 
-199D Sprite-20;35;729;260;260; 0.5;0.5; 0;0;0;0
-199D-Sprite-20-p1;35;71;80;90; 0.5;0.5; 0;0;0;0
-199D-Sprite-20-p2;365;709;91;101; 0.5;0.5; 0;0;0;0
-199D-Sprite-20-p3;365;880;96;109; 0.5;0.5; 0;0;0;0
-199D-Sprite-20-p4;223;565;117;74; 0.5;0.5; 0;0;0;0
-199D-Sprite-20-p5;35;580;118;79; 0.5;0.5; 0;0;0;0
-199D-Sprite-20-p6;35;408;86;102; 0.5;0.5; 0;0;0;0
-199D-Sprite-20-p7;35;231;83;107; 0.5;0.5; 0;0;0;0
+199D Sprite-20;4;218;290;290; 0.5;0.5; 0;0;0;0
+199D-Sprite-20-p1;383;20;110;120; 0.5;0.5; 0;0;0;0
+199D-Sprite-20-p2;383;148;121;131; 0.5;0.5; 0;0;0;0
+199D-Sprite-20-p3;4;71;126;139; 0.5;0.5; 0;0;0;0
+199D-Sprite-20-p4;302;287;147;104; 0.5;0.5; 0;0;0;0
+199D-Sprite-20-p5;302;399;148;109; 0.5;0.5; 0;0;0;0
+199D-Sprite-20-p6;259;78;116;132; 0.5;0.5; 0;0;0;0
+199D-Sprite-20-p7;138;73;113;137; 0.5;0.5; 0;0;0;0

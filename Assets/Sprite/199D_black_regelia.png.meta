@@ -113,10 +113,10 @@ TextureImporter:
       name: 199D Sprite-17
       rect:
         serializedVersion: 2
-        x: 30
-        y: 734
-        width: 260
-        height: 260
+        x: 3
+        y: 225
+        width: 284
+        height: 284
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: 199D-Sprite-17-p1
       rect:
         serializedVersion: 2
-        x: 183
-        y: 459
-        width: 58
-        height: 68
+        x: 425
+        y: 291
+        width: 82
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: 199D-Sprite-17-p2
       rect:
         serializedVersion: 2
-        x: 30
-        y: 579
-        width: 93
-        height: 95
+        x: 244
+        y: 100
+        width: 117
+        height: 119
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: 199D-Sprite-17-p3
       rect:
         serializedVersion: 2
-        x: 183
-        y: 587
-        width: 92
-        height: 87
+        x: 367
+        y: 150
+        width: 116
+        height: 111
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: 199D-Sprite-17-p4
       rect:
         serializedVersion: 2
-        x: 350
-        y: 588
-        width: 96
-        height: 98
+        x: 118
+        y: 97
+        width: 120
+        height: 122
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: 199D-Sprite-17-p5
       rect:
         serializedVersion: 2
-        x: 350
-        y: 898
-        width: 131
-        height: 96
+        x: 293
+        y: 389
+        width: 155
+        height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: 199D-Sprite-17-p6
       rect:
         serializedVersion: 2
-        x: 350
-        y: 746
-        width: 102
-        height: 92
+        x: 293
+        y: 267
+        width: 126
+        height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: 199D-Sprite-17-p7
       rect:
         serializedVersion: 2
-        x: 335
-        y: 417
-        width: 85
-        height: 111
+        x: 3
+        y: 84
+        width: 109
+        height: 135
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,6 +273,27 @@ TextureImporter:
       bones: []
       spriteID: 6b77619648369f0409c1255b4ccc04fa
       internalID: 302392510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 199D-Sprite-18-p1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 44
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca0f3692fecf9d4886e7f98a9c09d97
+      internalID: -1571157391
       vertices: []
       indices: 
       edges: []
@@ -296,6 +317,7 @@ TextureImporter:
       199D-Sprite-17-p5: 1663123147
       199D-Sprite-17-p6: -2033730292
       199D-Sprite-17-p7: 302392510
+      199D-Sprite-18-p1: -1571157391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

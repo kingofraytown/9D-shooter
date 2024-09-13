@@ -113,10 +113,10 @@ TextureImporter:
       name: Memphis Parallax Parts-01
       rect:
         serializedVersion: 2
-        x: 247
-        y: 424
-        width: 140
-        height: 122
+        x: 193
+        y: 466
+        width: 176
+        height: 158
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: Memphis Parallax Parts-02
       rect:
         serializedVersion: 2
-        x: 306
-        y: 844
-        width: 168
-        height: 145
+        x: 252
+        y: 838
+        width: 204
+        height: 181
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: Memphis Parallax Parts-03
       rect:
         serializedVersion: 2
-        x: 35
-        y: 511
-        width: 142
-        height: 142
+        x: 5
+        y: 553
+        width: 178
+        height: 178
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: Memphis Parallax Parts-04
       rect:
         serializedVersion: 2
-        x: 35
-        y: 723
-        width: 158
-        height: 158
+        x: 5
+        y: 741
+        width: 194
+        height: 194
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: Memphis Parallax Parts-05
       rect:
         serializedVersion: 2
-        x: 35
-        y: 951
-        width: 201
-        height: 38
+        x: 5
+        y: 945
+        width: 237
+        height: 74
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: Memphis Parallax Parts-06
       rect:
         serializedVersion: 2
-        x: 35
-        y: 263
-        width: 83
-        height: 178
+        x: 379
+        y: 410
+        width: 119
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: Memphis Parallax Parts-07
       rect:
         serializedVersion: 2
-        x: 188
-        y: 158
-        width: 63
-        height: 196
+        x: 5
+        y: 311
+        width: 99
+        height: 232
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Memphis Parallax Parts-08
       rect:
         serializedVersion: 2
-        x: 321
-        y: 164
-        width: 60
-        height: 190
+        x: 5
+        y: 75
+        width: 96
+        height: 226
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: Memphis Parallax Parts-09
       rect:
         serializedVersion: 2
-        x: 263
-        y: 616
-        width: 158
-        height: 158
+        x: 209
+        y: 634
+        width: 194
+        height: 194
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
