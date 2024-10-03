@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bullet-Orange
+  m_Controller: {fileID: 9100000, guid: f008254e8e2d97f42bcec003a511efbc, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a72ec44e121d484459ac928bae58fb13, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2566802349782e14fbf1c21644b8b823, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b8f02b129ab08d349bf36e55f4694954, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fe6f4acadbd4f0d4190b4225a841762c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7eb8ad30b81d4d9469d0b9f94265de98, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c65ecf9cf8f15a545a89ce6b88a0a37c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d530f767a1cac3f41b41a2be74e734ca, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2981a2a76bd1e5b41843aeafa8624b8d, type: 2}

@@ -7,30 +7,32 @@ public class EnemyController : MonoBehaviour
     public GameFloat lookRange;
     public float lookRanged;
     public GameObject player;
-    public GameObject gun;
+    public Gun gun;
     public ItemDropper bag;
-    public ObjectPool bullets;
-    public float fireRated;
-    public GameFloat fireRate;
-    public float fireRateTimer;
-    public float targetAngle;
+    //public ObjectPool bullets;
+    //public float fireRated;
+    //public GameFloat fireRate;
+    //public float fireRateTimer;
+    //public float targetAngle;
     public Animator animator;
+    public Animator explosionAnimator;
     public Breakable health;
     public GameFloat deathTime;
     public float deathTimed;
     public float deathTimer;
     public float distance;
-    public bool shootStraight = false;
+    //public bool shootStraight = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        gun.target = player;
     }
 
     // Update is called once per frame
     void Update()
     {
+        /*
         //check for player distance
         distance = Vector3.Distance(gameObject.transform.position, player.transform.position);
 
@@ -47,6 +49,7 @@ public class EnemyController : MonoBehaviour
             //gun.transform.Rotate(0, 0, targetAngle);
             Fire();
         }
+        */
 
         if (health.currentState == Breakable.healthState.Damaged)
         {
@@ -70,7 +73,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    void Fire()
+    /*void Fire()
     {
         if (fireRateTimer >= fireRate.value())
         {
@@ -91,7 +94,7 @@ public class EnemyController : MonoBehaviour
             }
 
         }
-    }
+    }*/
 
     public void Hit()
     {
@@ -100,6 +103,7 @@ public class EnemyController : MonoBehaviour
 
     public void BreakCrate()
     {
+        explosionAnimator.SetTrigger("explode");
         animator.SetBool("dead", true);
         bag.DropItems();
     }

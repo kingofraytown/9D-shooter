@@ -51,7 +51,7 @@ public class ItemDropper : MonoBehaviour
                 GameObject currentItem = bag[i];
                 currentItem.transform.parent = null;
                 currentItem.transform.position = itemDropLoc;
-                currentItem.GetComponent<BoxCollider2D>().enabled = true;
+                currentItem.GetComponent<Collider2D>().enabled = true;
                 currentItem.SetActive(true);
             }
 

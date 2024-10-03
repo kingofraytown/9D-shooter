@@ -1,0 +1,37 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:6e4ef9ae8643ac0a96e4d01362248f2e:2101496edd7f75dda50ff010a4c2b4db:a677929a9c9c3ba18398e6d67d32f0bb$
+#
+:format=40300
+:texture=199D_smoke.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+199D-Sprite-33;4;407;214;228; 0.5;0.5; 0;0;0;0
+199D-Sprite-34;1065;643;338;342; 0.5;0.5; 0;0;0;0
+199D-Sprite-35;1119;1527;539;517; 0.5;0.5; 0;0;0;0
+199D-Sprite-36;1666;1629;369;415; 0.5;0.5; 0;0;0;0
+199D-Sprite-37;226;97;269;288; 0.5;0.5; 0;0;0;0
+199D-Sprite-38;544;130;314;421; 0.5;0.5; 0;0;0;0
+199D-Sprite-39;226;396;310;252; 0.5;0.5; 0;0;0;0
+199D-Sprite-40;1411;809;233;176; 0.5;0.5; 0;0;0;0
+199D-Sprite-41;1411;559;228;242; 0.5;0.5; 0;0;0;0
+199D-Sprite-42;1666;1269;348;352; 0.5;0.5; 0;0;0;0
+199D-Sprite-43;4;1515;551;529; 0.5;0.5; 0;0;0;0
+199D-Sprite-44;1653;832;379;429; 0.5;0.5; 0;0;0;0
+199D-Sprite-45;146;656;279;301; 0.5;0.5; 0;0;0;0
+199D-Sprite-46;1652;393;324;431; 0.5;0.5; 0;0;0;0
+199D-Sprite-47;433;695;320;262; 0.5;0.5; 0;0;0;0
+199D-Sprite-48;761;791;243;186; 0.5;0.5; 0;0;0;0
+199D-Sprite-49;553;985;504;504; 0.5;0.5; 0;0;0;0
+199D-Sprite-50;563;1497;548;547; 0.5;0.5; 0;0;0;0
+199D-Sprite-51;4;965;541;542; 0.5;0.5; 0;0;0;0
+199D-Sprite-52;1119;993;526;526; 0.5;0.5; 0;0;0;0
+199D-Sprite-53;4;48;214;337; 0.5;0.5; 0;0;0;0
+199D-Sprite-54;4;653;134;304; 0.5;0.5; 0;0;0;0

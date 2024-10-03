@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     public ObjectPool ammo2Pool;
     public ObjectPool ammo3Pool;
     public ObjectPool ammo4Pool;
+    public Gun[] guns; 
     public bool isFiringBullets = false;
     public Transform turret;
     public float fireRateInterval;
@@ -172,7 +173,11 @@ public class PlayerController : MonoBehaviour
         if (health.currentState == PlayerHealth.healthState.Destroyed)
         {
             //BreakCrate();
-            PlayerDeathEvent();
+            if (PlayerDeathEvent != null)
+            {
+                PlayerDeathEvent();
+            }
+           
             GameOverPanel.SetActive(true);
             deathTimer = deathTime;
             health.currentState = PlayerHealth.healthState.None;
@@ -192,7 +197,7 @@ public class PlayerController : MonoBehaviour
     public void OnMove(InputAction.CallbackContext cc)
     {
         _movement = cc.ReadValue<Vector2>();
-       // Debug.Log(_movement);
+        Debug.Log(_movement);
     }
 
     private void Awake()
@@ -261,7 +266,11 @@ public class PlayerController : MonoBehaviour
                 int newAmmo = ammoCrate[0];
                 ammoCrate.RemoveAt(0);
                 int[] tempArray = ammoCrate.ToArray();
-                TakeAmmoEvent(tempArray);
+                if(TakeAmmoEvent != null)
+                {
+                    TakeAmmoEvent(tempArray);
+                }
+                
                 specialAmmoTimer = specialAmmoTime;
 
                 switch (newAmmo)
@@ -295,7 +304,19 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public ObjectPool currentBulletPool()
+    public Gun CurrentGun()
+    {
+        Gun g;
+        switch (currentAmmoState)
+        {
+            default:
+                g = guns[0];
+                break;
+        }
+        return g;
+    }
+
+    public ObjectPool currentBulletPool() //deprecated
     {
         ObjectPool r = bulletPool;
         switch (currentAmmoState) {
@@ -321,17 +342,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void Fire() {
-      if (fireRateTimer >= GetFireRate()) {
-        GameObject bullet = currentBulletPool().GetPooledObject();
-        if (bullet != null)
-        {
-            bullet.GetComponent<BaseBullet>().Restore();
-            bullet.transform.position = turret.position;
-            bullet.SetActive(true);
-            fireRateTimer = 0;
-         }
-
-      }
+        CurrentGun().Fire();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -355,7 +366,9 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case "Health":
-                AddHealthEvent(1);
+                if (AddHealthEvent != null) {
+                    AddHealthEvent(1);
+                }
                 collision.gameObject.SetActive(false);
                 break;
             case "Ammo 1":
@@ -386,7 +399,7 @@ public class PlayerController : MonoBehaviour
                     collision.gameObject.SetActive(false);
                 }
                 break;
-            case "Enemy_BUllet":
+            case "Enemy_Bullet":
                 if (isHurt == false)
                 {
                     Breakable b = collision.gameObject.GetComponent<Breakable>();
@@ -412,7 +425,11 @@ public class PlayerController : MonoBehaviour
     {
         ammoCrate.Add(a);
         int[] tempArray = ammoCrate.ToArray();
-        TakeAmmoEvent(tempArray);
+        if(TakeAmmoEvent != null)
+        {
+            TakeAmmoEvent(tempArray);
+        }
+        
     }
 
     public void PlayerHit(int d)

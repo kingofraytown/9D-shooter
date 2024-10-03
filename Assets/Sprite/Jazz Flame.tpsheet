@@ -1,0 +1,24 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:e69d16643ed493e2e208faf295067059:13fffbd255497391498620d04dde0ac9:e3ac88e6d5ec1c02d2af63579831f5e3$
+#
+:format=40300
+:texture=Jazz Flame.png
+:size=512x512
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Jazz Flame Skewed-01;210;31;195;99; 0.5;0.5; 0;0;0;0
+Jazz Flame Skewed-02;231;406;221;105; 0.5;0.5; 0;0;0;0
+Jazz Flame Skewed-03;215;172;211;118; 0.5;0.5; 0;0;0;0
+Jazz Flame Skewed-04;1;418;228;93; 0.5;0.5; 0;0;0;0
+Jazz Flame Skewed-05;1;332;218;84; 0.5;0.5; 0;0;0;0
+Jazz Flame Skewed-06;1;132;211;98; 0.5;0.5; 0;0;0;0
+Jazz Flame Skewed-07;1;232;212;98; 0.5;0.5; 0;0;0;0
+Jazz Flame Skewed-08;1;30;207;100; 0.5;0.5; 0;0;0;0
+Jazz Flame Skewed-09;221;292;216;112; 0.5;0.5; 0;0;0;0

@@ -22,6 +22,7 @@ TagManager:
   - Enemy
   - Goal
   - Music
+  - Unbreakable
   layers:
   - Default
   - TransparentFX
@@ -58,4 +59,37 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG Layer 0
+    uniqueID: 1535766379
+    locked: 0
+  - name: BG Layer 1
+    uniqueID: 3107196765
+    locked: 0
+  - name: BG Layer 2
+    uniqueID: 2280044781
+    locked: 0
+  - name: BG Layer 3
+    uniqueID: 1404399335
+    locked: 0
+  - name: Items
+    uniqueID: 2685546697
+    locked: 0
+  - name: Ship Outline
+    uniqueID: 3106743897
+    locked: 0
+  - name: Ships
+    uniqueID: 3747986761
+    locked: 0
+  - name: Bullet Outline
+    uniqueID: 2315379987
+    locked: 0
+  - name: Bullets
+    uniqueID: 4252133907
+    locked: 0
+  - name: VFX Layer 1
+    uniqueID: 1554087199
+    locked: 0
+  - name: VFX Lsyer 2
+    uniqueID: 3897548191
     locked: 0
