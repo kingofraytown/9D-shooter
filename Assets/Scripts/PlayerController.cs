@@ -9,18 +9,13 @@ public class PlayerController : MonoBehaviour
 {
     public float speed;
     public float smoothness = 0.1f;
-    Vector2 _movement;
+    public Vector2 _movement;
     Animator animator;
-    public ObjectPool bulletPool;
-    public ObjectPool ammo1Pool;
-    public ObjectPool ammo2Pool;
-    public ObjectPool ammo3Pool;
-    public ObjectPool ammo4Pool;
+
     public Gun[] guns; 
     public bool isFiringBullets = false;
     public Transform turret;
-    public float fireRateInterval;
-    public float fireRateTimer;
+
     public PlayerHealth health;
     public bool isHurt = false;
     public float hurtTime;
@@ -46,15 +41,15 @@ public class PlayerController : MonoBehaviour
         Ammo1,
         Ammo2,
         Ammo3,
-        Ammo4
+        Ammo4,
+        Ammo5,
+        Ammo6,
+        Ammo7,
+        Ammo8,
+        Ammo9
     }
 
     public AmmoStates currentAmmoState = AmmoStates.Normal;
-
-    public float ammo1FireRate;
-    public float ammo2FireRate;
-    public float ammo3FireRate;
-    public float ammo4FireRate;
 
     public float specialAmmoTime;
     public float specialAmmoTimer;
@@ -124,8 +119,6 @@ public class PlayerController : MonoBehaviour
             Fire();
         }
 
-        fireRateTimer += Time.deltaTime;
-
         if (isHurt)
         {
             hurtTimer -= Time.deltaTime;
@@ -143,6 +136,7 @@ public class PlayerController : MonoBehaviour
 
             if (specialAmmoTimer <= 0)
             {
+                CurrentGun().StopFiring();
                 currentAmmoState = AmmoStates.Normal;
             }
         }
@@ -197,7 +191,7 @@ public class PlayerController : MonoBehaviour
     public void OnMove(InputAction.CallbackContext cc)
     {
         _movement = cc.ReadValue<Vector2>();
-        Debug.Log(_movement);
+        //Debug.Log(_movement);
     }
 
     private void Awake()
@@ -239,18 +233,28 @@ public class PlayerController : MonoBehaviour
 
     public void OnFire(InputAction.CallbackContext cc)
     {
+        Debug.Log(cc);
         if (cc.started)
         {
             isFiringBullets = true;
         }
         if (cc.performed)
         {
+
             isFiringBullets = true;
         }
-        if (cc.canceled)
-        {
-            isFiringBullets = false;
-        }
+
+        //if(_movement == Vector2.zero)
+        //{
+            if (cc.canceled)
+            {
+                Debug.Log("Fire Action Canceled");
+                isFiringBullets = false;
+                CurrentGun().StopFiring();
+            }
+        //}
+
+        
     }
 
     public void OnSpecialAttack(InputAction.CallbackContext cc)
@@ -287,6 +291,21 @@ public class PlayerController : MonoBehaviour
                     case 4:
                         currentAmmoState = AmmoStates.Ammo4;
                         break;
+                    case 5:
+                        currentAmmoState = AmmoStates.Ammo5;
+                        break;
+                    case 6:
+                        currentAmmoState = AmmoStates.Ammo6;
+                        break;
+                    case 7:
+                        currentAmmoState = AmmoStates.Ammo7;
+                        break;
+                    case 8:
+                        currentAmmoState = AmmoStates.Ammo8;
+                        break;
+                    case 9:
+                        currentAmmoState = AmmoStates.Ammo9;
+                        break;
                 }
             }
         }
@@ -304,41 +323,66 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void OnFireRelease(InputAction.CallbackContext cc)
+    {
+       /* if (cc.started)
+        {
+            //Debug.Log("Fire Action Release Started");
+            //isFiringBullets = false;
+            //CurrentGun().StopFiring();
+        }
+        if (cc.performed)
+        {
+            Debug.Log("Fire Action Release Performed");
+            isFiringBullets = false;
+            CurrentGun().StopFiring();
+        }
+
+        if (cc.canceled)
+        {
+            Debug.Log("Fire Action Release Canceled");
+            //isFiringBullets = false;
+            //CurrentGun().StopFiring();
+        }*/
+    }
+
     public Gun CurrentGun()
     {
         Gun g;
         switch (currentAmmoState)
         {
+            case AmmoStates.Ammo1:
+                g = guns[1];
+                break;
+            case AmmoStates.Ammo2:
+                g = guns[2];
+                break;
+            case AmmoStates.Ammo3:
+                g = guns[3];
+                break;
+            case AmmoStates.Ammo4:
+                g = guns[4];
+                break;
+            case AmmoStates.Ammo5:
+                g = guns[5];
+                break;
+            case AmmoStates.Ammo6:
+                g = guns[6];
+                break;
+            case AmmoStates.Ammo7:
+                g = guns[7];
+                break;
+            case AmmoStates.Ammo8:
+                g = guns[8];
+                break;
+            case AmmoStates.Ammo9:
+                g = guns[9];
+                break;
             default:
                 g = guns[0];
                 break;
         }
         return g;
-    }
-
-    public ObjectPool currentBulletPool() //deprecated
-    {
-        ObjectPool r = bulletPool;
-        switch (currentAmmoState) {
-            case AmmoStates.Ammo1:
-                r = ammo1Pool;
-                break;
-            case AmmoStates.Ammo2:
-                r = ammo2Pool;
-                break;
-            case AmmoStates.Ammo3:
-                r = ammo3Pool;
-                break;
-            case AmmoStates.Ammo4:
-                r = ammo4Pool;
-                break;
-            default:
-                r = bulletPool;
-                break;
-        }
-
-
-        return r;
     }
 
     void Fire() {
@@ -399,6 +443,41 @@ public class PlayerController : MonoBehaviour
                     collision.gameObject.SetActive(false);
                 }
                 break;
+            case "Ammo 5":
+                if (ammoCrate.Count < 9)
+                {
+                    LoadAmmo(5);
+                    collision.gameObject.SetActive(false);
+                }
+                break;
+            case "Ammo 6":
+                if (ammoCrate.Count < 9)
+                {
+                    LoadAmmo(6);
+                    collision.gameObject.SetActive(false);
+                }
+                break;
+            case "Ammo 7":
+                if (ammoCrate.Count < 9)
+                {
+                    LoadAmmo(7);
+                    collision.gameObject.SetActive(false);
+                }
+                break;
+            case "Ammo 8":
+                if (ammoCrate.Count < 9)
+                {
+                    LoadAmmo(8);
+                    collision.gameObject.SetActive(false);
+                }
+                break;
+            case "Ammo 9":
+                if (ammoCrate.Count < 9)
+                {
+                    LoadAmmo(9);
+                    collision.gameObject.SetActive(false);
+                }
+                break;
             case "Enemy_Bullet":
                 if (isHurt == false)
                 {
@@ -441,29 +520,5 @@ public class PlayerController : MonoBehaviour
             gameObject.transform.Translate(new Vector3(-1 * damageBounce, 0));
         }
 
-    }
-
-    public float GetFireRate()
-    {
-        float rate;
-        switch (currentAmmoState)
-        {
-            case AmmoStates.Ammo1:
-                rate = ammo1FireRate;
-                break;
-            case AmmoStates.Ammo2:
-                rate = ammo2FireRate;
-                break;
-            case AmmoStates.Ammo3:
-                rate = ammo3FireRate;
-                break;
-            case AmmoStates.Ammo4:
-                rate = ammo4FireRate;
-                break;
-            default:
-                rate = fireRateInterval;
-                break;
-        }
-        return rate;
     }
 }

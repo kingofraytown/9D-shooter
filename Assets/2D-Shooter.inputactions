@@ -16,12 +16,12 @@
                 },
                 {
                     "name": "Fire",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "d6f22067-7917-4178-b136-b6a4c4f4e930",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Special Fire",
@@ -60,13 +60,13 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "b352fb93-d28a-4b1b-b025-4a10cca00f84",
+                    "name": "FireRelease",
+                    "type": "Value",
+                    "id": "71ad2a83-52c9-4389-b826-f9c51c1a5ee5",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -76,7 +76,7 @@
                     "path": "<Gamepad>/leftStick",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Gamepad",
+                    "groups": "",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -165,17 +165,6 @@
                     "interactions": "Press",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Fire",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "bb9b8ed2-b46b-45e3-98a2-e8643ed1d9e3",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
                     "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -292,12 +281,23 @@
                 },
                 {
                     "name": "",
-                    "id": "f34eba46-88e0-4049-a497-37df1cb94801",
-                    "path": "",
+                    "id": "36ebd181-4568-43b3-b39f-1fc8dbf9d514",
+                    "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "FireRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9e70b51a-164e-488e-910c-26cae27b54f0",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FireRelease",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

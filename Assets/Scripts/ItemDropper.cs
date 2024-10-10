@@ -5,7 +5,6 @@ using UnityEngine;
 public class ItemDropper : MonoBehaviour
 {
     public List<GameObject> bag = new List<GameObject>();
-    public int items;
     public GameFloat minItemDropRadius;
     public float minItemDropRadiust;
     public GameFloat maxItemDropRadius;

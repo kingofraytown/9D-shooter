@@ -12,6 +12,17 @@ public class BaseBullet : MonoBehaviour
     Collider2D bulletCollider;
     public Animator animator;
     public bool enemyBullet;
+    public bool decreaseSpeedOverTime;
+    public float decreaseSpeedRate;
+    public bool increaseSpeedOverTime;
+    public float increaseSpeedRate;
+    public bool increaseSizeOverTime;
+    public float increaseSizeRate;
+    public float eSpeed;
+    public Vector3 restoreScale;
+    public bool bomb;
+    public bool hasExplosion;
+    public Animator explosionAnimator;
 
     public enum BulletStates
     {
@@ -26,7 +37,7 @@ public class BaseBullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        restoreScale = transform.localScale;
     }
 
     // Update is called once per frame
@@ -34,14 +45,46 @@ public class BaseBullet : MonoBehaviour
     {
         if (currentState == BulletStates.Active)
         {
-            transform.position += transform.right * Time.deltaTime * speed;
+            if (decreaseSpeedOverTime)
+            {
+                eSpeed -= decreaseSpeedRate * Time.deltaTime;
+                if (eSpeed < 0)
+                {
+                    eSpeed = 0;
+                }
+            }
+
+            if (increaseSpeedOverTime)
+            {
+                eSpeed += increaseSpeedRate * Time.deltaTime;
+                if (eSpeed > 30)
+                {
+                    eSpeed = 30;
+                }
+            }
+
+            if (increaseSizeOverTime)
+            {
+                transform.localScale = new Vector3(transform.localScale.x + increaseSizeRate * Time.deltaTime, transform.localScale.y + increaseSizeRate * Time.deltaTime, transform.localScale.z + increaseSizeRate * Time.deltaTime);
+
+            }
+
+            transform.position += transform.right * Time.deltaTime * eSpeed;
             if (lifeTimer > 0)
             {
                 lifeTimer -= Time.deltaTime;
                 if (lifeTimer < 0)
                 {
-                    lifeTimer = 0;
-                    Die();
+                    if (bomb)
+                    {
+                        ChangeState(BulletStates.Hit);
+                        deathTimer = deathTime;
+                    }
+                    else
+                    {
+                        lifeTimer = 0;
+                        Die();
+                    }
                 }
             }
         }
@@ -68,8 +111,8 @@ public class BaseBullet : MonoBehaviour
         {
             source = "Enemy";
         }
-        if (collision.collider.tag != source)
-        {
+
+        if (collision.collider.tag != source) {
             deathTimer = deathTime;
             if (collision.collider.tag == "Unbreakable")
             {
@@ -80,11 +123,14 @@ public class BaseBullet : MonoBehaviour
                 ChangeState(BulletStates.Hit);
             }
         }
+     
     }
 
     public void Restore()
     {
         lifeTimer = lifetime;
+        eSpeed = speed;
+        transform.localScale = restoreScale;
         transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 
@@ -114,7 +160,7 @@ public class BaseBullet : MonoBehaviour
             {
                 b.TakeDamage(1);
             }
-
+            
             deathTimer = deathTime;
             if (collision.gameObject.tag == "Unbreakable")
             {
@@ -124,6 +170,7 @@ public class BaseBullet : MonoBehaviour
             {
                 ChangeState(BulletStates.Hit);
             }
+
         }
 
         //Die();
@@ -145,10 +192,18 @@ public class BaseBullet : MonoBehaviour
                     case BulletStates.Hit:
                         animator.SetTrigger("hit_break");
                         animator.SetBool("active", false);
+                        if (hasExplosion)
+                        {
+                            explosionAnimator.SetTrigger("explode");
+                        }
                         break;
                     case BulletStates.Blocked:
                         animator.SetTrigger("hit_unbreak");
                         animator.SetBool("active", false);
+                        if (hasExplosion)
+                        {
+                            explosionAnimator.SetTrigger("explode");
+                        }
                         break;
                     case BulletStates.Dead:
                         Die();

@@ -403,7 +403,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.122, y: 0.297, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6151018253248157668}
@@ -586,7 +586,18 @@ MonoBehaviour:
   deathTimer: 0
   animator: {fileID: 4309137047150663062}
   enemyBullet: 0
-  currentState: 0
+  decreaseSpeedOverTime: 0
+  decreaseSpeedRate: 0
+  increaseSpeedOverTime: 0
+  increaseSpeedRate: 0
+  increaseSizeOverTime: 0
+  increaseSizeRate: 0
+  eSpeed: 0
+  restoreScale: {x: 1.4, y: 1.4, z: 1}
+  bomb: 0
+  hasExplosion: 0
+  explosionAnimator: {fileID: 0}
+  currentState: 3
 --- !u!1 &4278287835047087238
 GameObject:
   m_ObjectHideFlags: 0

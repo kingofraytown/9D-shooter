@@ -12,6 +12,7 @@ public class CrateController : MonoBehaviour
     public float deathTimer;
     public bool isBroken = false;
     public ItemDropper bag;
+    public VFXController explosion;
     void Start()
     {
         
@@ -50,6 +51,7 @@ public class CrateController : MonoBehaviour
 
     public void BreakCrate()
     {
+        explosion.TriggerVFX();
         animator.SetBool("Broken", true);
         bag.DropItems();
     }

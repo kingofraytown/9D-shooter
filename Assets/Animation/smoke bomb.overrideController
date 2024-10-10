@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: smoke bomb
+  m_Controller: {fileID: 9100000, guid: 6ec448f3dd9ff3a45b38c33ee7191094, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d813ab490cef1d3438be2b97fb3b71dd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 55db1e4da1930fb408cd7cf8b66f3eba, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 32f23a7460fc4504e81c49a7a6e25825, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a6ab4f897c392a543aa31305599c9a7e, type: 2}

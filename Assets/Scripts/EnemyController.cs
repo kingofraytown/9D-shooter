@@ -15,7 +15,8 @@ public class EnemyController : MonoBehaviour
     //public float fireRateTimer;
     //public float targetAngle;
     public Animator animator;
-    public Animator explosionAnimator;
+    public VFXController explosion;
+    //public Animator explosionAnimator;
     public Breakable health;
     public GameFloat deathTime;
     public float deathTimed;
@@ -103,7 +104,7 @@ public class EnemyController : MonoBehaviour
 
     public void BreakCrate()
     {
-        explosionAnimator.SetTrigger("explode");
+        explosion.TriggerVFX();
         animator.SetBool("dead", true);
         bag.DropItems();
     }

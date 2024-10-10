@@ -426,14 +426,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cd26baac3818af42840fd3a7083c4ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifetime: 3
+  lifetime: 0.7
   lifeTimer: 0
-  speed: 5.5
+  speed: 6
   deathTime: 0.4
   deathTimer: 0
   animator: {fileID: 6969238847322496255}
   enemyBullet: 0
-  currentState: 0
+  decreaseSpeedOverTime: 0
+  decreaseSpeedRate: 0
+  increaseSpeedOverTime: 0
+  increaseSpeedRate: 0
+  increaseSizeOverTime: 1
+  increaseSizeRate: 2
+  eSpeed: 0
+  restoreScale: {x: 1.27, y: 1.27, z: 1.27}
+  bomb: 0
+  hasExplosion: 0
+  explosionAnimator: {fileID: 0}
+  currentState: 3
 --- !u!1 &1085389774523006363
 GameObject:
   m_ObjectHideFlags: 0

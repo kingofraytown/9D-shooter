@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cateway Box
+  m_Controller: {fileID: 9100000, guid: af61f59a8a5a0b3488be6248f38591b2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: dfffcdd41e3c3924d8a5f3c6f5b583d6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4e36cb879db02264cb3a8e61c4c1c39a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e51d81d7793ad3f4ca612a85981cf33f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6b81fc53a7056da48b441447ebbf4fcc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e4e3b64a88922494283808c8f54a6eed, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3fca8a041654d194dadd67fcf48c91ff, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2e3faa59418d6ba42ba5fd2f882577c4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ae1206c2f9062eb4f875d7a62e161c0b, type: 2}

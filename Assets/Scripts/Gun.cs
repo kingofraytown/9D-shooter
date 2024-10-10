@@ -6,7 +6,7 @@ public class Gun : MonoBehaviour
 {
     public ObjectPool clip;
     public GameFloat fireRate;
-    private float fireRateTimer;
+    public float fireRateTimer;
     public bool straightShot;
     public float targetAngle;
     public bool rightDirection;
@@ -16,6 +16,8 @@ public class Gun : MonoBehaviour
     private float distance;
     public bool multiShot;
     public Gun[] guns;
+    public bool laser;
+    public BaseLaser laserBeam;
 
 
     private void Update()
@@ -53,35 +55,50 @@ public class Gun : MonoBehaviour
         }
         else
         {
-            if (fireRateTimer >= fireRate.value())
+            if (laser)
             {
-                GameObject bullet = clip.GetPooledObject();
-                if (bullet != null && bullet.GetComponent<BaseBullet>().currentState == BaseBullet.BulletStates.Dead)
+                laserBeam.StartLaser();
+
+            }
+            else
+            {
+                if (fireRateTimer >= fireRate.value())
                 {
-                    bullet.GetComponent<BaseBullet>().Restore();
-                    if (straightShot)
+                    GameObject bullet = clip.GetPooledObject();
+                    if (bullet != null && bullet.GetComponent<BaseBullet>().currentState == BaseBullet.BulletStates.Dead)
                     {
-                        if (rightDirection)
+                        bullet.GetComponent<BaseBullet>().Restore();
+                        if (straightShot)
                         {
-                            bullet.transform.position = gameObject.transform.position;
-                            bullet.transform.rotation = gameObject.transform.rotation;
+                            if (rightDirection)
+                            {
+                                bullet.transform.position = gameObject.transform.position;
+                                bullet.transform.rotation = gameObject.transform.rotation;
+                            }
+                            else
+                            {
+                                bullet.transform.position = gameObject.transform.position;
+                                bullet.transform.Rotate(0, 0, -180);
+                            }
+
                         }
                         else
                         {
-                            bullet.transform.position = gameObject.transform.position;
-                            bullet.transform.Rotate(0, 0, -180);
+                            bullet.transform.Rotate(0, 0, targetAngle);
                         }
-
+                        bullet.SetActive(true);
+                        bullet.GetComponent<BaseBullet>().ChangeState(BaseBullet.BulletStates.Active);
+                        fireRateTimer = 0;
                     }
-                    else
-                    {
-                        bullet.transform.Rotate(0, 0, targetAngle);
-                    }
-                    bullet.SetActive(true);
-                    bullet.GetComponent<BaseBullet>().ChangeState(BaseBullet.BulletStates.Active);
-                    fireRateTimer = 0;
                 }
             }
+        }
+    }
+    public void StopFiring()
+    {
+        if (laser)
+        {
+            laserBeam.EndLaser();
         }
     }
 

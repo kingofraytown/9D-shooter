@@ -1038,6 +1038,17 @@ MonoBehaviour:
   deathTimer: 0
   animator: {fileID: 8622302098741447544}
   enemyBullet: 0
+  decreaseSpeedOverTime: 0
+  decreaseSpeedRate: 0
+  increaseSpeedOverTime: 0
+  increaseSpeedRate: 0
+  increaseSizeOverTime: 0
+  increaseSizeRate: 0
+  eSpeed: 0
+  restoreScale: {x: 1.5568, y: 1.5568, z: 1.5568}
+  bomb: 0
+  hasExplosion: 0
+  explosionAnimator: {fileID: 0}
   currentState: 3
 --- !u!95 &8622302098741447544
 Animator:

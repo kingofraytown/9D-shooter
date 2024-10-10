@@ -973,7 +973,18 @@ MonoBehaviour:
   deathTimer: 0
   animator: {fileID: 9021128149848285055}
   enemyBullet: 0
-  currentState: 0
+  decreaseSpeedOverTime: 0
+  decreaseSpeedRate: 0
+  increaseSpeedOverTime: 0
+  increaseSpeedRate: 0
+  increaseSizeOverTime: 0
+  increaseSizeRate: 0
+  eSpeed: 0
+  restoreScale: {x: 0.76, y: 0.82, z: 1}
+  bomb: 0
+  hasExplosion: 0
+  explosionAnimator: {fileID: 0}
+  currentState: 3
 --- !u!1 &7469390965385415135
 GameObject:
   m_ObjectHideFlags: 0
