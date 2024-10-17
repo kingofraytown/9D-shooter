@@ -84,6 +84,7 @@ public class Gun : MonoBehaviour
                         }
                         else
                         {
+                            bullet.transform.position = gameObject.transform.position;
                             bullet.transform.Rotate(0, 0, targetAngle);
                         }
                         bullet.SetActive(true);

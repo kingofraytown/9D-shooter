@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8880,7 +8880,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 84876219421678578, guid: 339bb86a23c832b498db1f57166efb6b, type: 3}
       propertyPath: amountToPool
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2708573390867125854, guid: 339bb86a23c832b498db1f57166efb6b, type: 3}
       propertyPath: m_Name
@@ -8932,7 +8932,7 @@ PrefabInstance:
       objectReference: {fileID: 1638512546}
     - target: {fileID: 8100262961714218314, guid: 339bb86a23c832b498db1f57166efb6b, type: 3}
       propertyPath: straightShot
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8100262961714218314, guid: 339bb86a23c832b498db1f57166efb6b, type: 3}
       propertyPath: rightDirection
