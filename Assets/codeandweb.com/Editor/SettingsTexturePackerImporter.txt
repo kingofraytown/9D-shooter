@@ -14,8 +14,12 @@ tpsheetFileNames:
 - Assets/Sprite/199D_smoke_ammo.tpsheet
 - Assets/Sprite/199D_smoke_ammo_small.tpsheet
 - Assets/Sprite/199D-Resized-basics.tpsheet
+- Assets/Sprite/199D-shield-lv1.tpsheet
+- Assets/Sprite/199D-shield-lv2-3.tpsheet
+- Assets/Sprite/199D-shield-lv4-5.tpsheet
 - Assets/Sprite/9DT.tpsheet
 - Assets/Sprite/Jazz Flame.tpsheet
+- Assets/Sprite/sheild pieces.tpsheet
 textureFileNames:
 - Assets/Sprite/199D_black_regelia.png
 - Assets/Sprite/199D_blue_regelia.png
@@ -31,9 +35,17 @@ textureFileNames:
 - Assets/Sprite/199D_smoke_ammo.png
 - Assets/Sprite/199D_smoke_ammo_small.png
 - Assets/Sprite/199D-Resized-basics.png
+- Assets/Sprite/199D-shield-lv1.png
+- Assets/Sprite/199D-shield-lv2-3.png
+- Assets/Sprite/199D-shield-lv4-5.png
 - Assets/Sprite/9DT.png
 - Assets/Sprite/Jazz Flame.png
+- Assets/Sprite/sheild pieces.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
 - 
 - 
 - 

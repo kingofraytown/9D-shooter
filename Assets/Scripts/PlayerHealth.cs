@@ -5,11 +5,15 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     public int health;
+    public int shield;
     public float damageTime;
     public float damageTimer;
 
     public delegate void TakeDamageDelegate(int damage);
     public static event TakeDamageDelegate PlayerDamageEvent;
+
+    public delegate void TakeShieldDamageDelegate(int shieldDamage);
+    public static event TakeShieldDamageDelegate PlayerShieldDamageEvent;
 
 
     public enum healthState

@@ -90,6 +90,10 @@ public class PlayerController : MonoBehaviour
     public delegate void PlayerDeathDelegate();
     public static event PlayerDeathDelegate PlayerDeathEvent;
 
+    public delegate void ActivateShield();
+    public static event ActivateShield ActivateShieldEvent;
+
+
     private void OnEnable()
     {
         PlayerHealth.PlayerDamageEvent += PlayerHit;
@@ -495,6 +499,12 @@ public class PlayerController : MonoBehaviour
                 break;
             case "Goal":
                 WinPanel.SetActive(true);
+                break;
+            case "Shield":
+                if (ActivateShieldEvent != null)
+                {
+                    ActivateShieldEvent();
+                }
                 break;
 
         }

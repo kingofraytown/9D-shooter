@@ -1,0 +1,32 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:5754a8f6b1f9a4ad10c267e237e5b5da:ec41820c659a1f3dec382ceabfe1ca7a:e3d9768b2b00be0cf5afbc85d4461a35$
+#
+:format=40300
+:texture=sheild pieces.png
+:size=256x512
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Circle Shield Pieces-01;1;441;76;70; 0.5;0.5; 0;0;0;0
+Circle Shield Pieces-02;79;441;88;70; 0.5;0.5; 0;0;0;0
+Circle Shield Pieces-03;1;355;92;84; 0.5;0.5; 0;0;0;0
+Circle Shield Pieces-04;95;389;64;50; 0.5;0.5; 0;0;0;0
+Circle Shield Pieces-05;161;405;44;34; 0.5;0.5; 0;0;0;0
+Circle Shield Pieces-06;1;271;49;82; 0.5102040816326531;0.5; 0;0;0;0
+Circle Shield Pieces-07;52;307;44;46; 0.5;0.5; 0;0;0;0
+Circle Shield Pieces-08;98;259;27;94; 0.5925925925925926;0.5; 0;0;0;0
+Circle Shield Pieces-09;127;237;68;116; 0.5;0.5; 0;0;0;0
+Circle Shield Pieces-10;1;207;112;28; 0.5;0.6428571428571428; 0;0;0;0
+Circle Shield Pieces-11;115;179;98;56; 0.5;0.5; 0;0;0;0
+Circle Shield Pieces-12;1;113;52;64; 0.5;0.5; 0;0;0;0
+Circle Shield Pieces-13;55;119;70;58; 0.5;0.5; 0;0;0;0
+Circle Shield Pieces-14;127;117;87;60; 0.5057471264367817;0.5; 0;0;0;0
+Circle Shield Pieces-15;1;11;68;100; 0.5;0.5; 0;0;0;0
+Circle Shield Pieces-16;71;47;52;64; 0.5;0.5; 0;0;0;0
+Circle Shield Pieces-17;125;15;70;96; 0.5;0.5; 0;0;0;0

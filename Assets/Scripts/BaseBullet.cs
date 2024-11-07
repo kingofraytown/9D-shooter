@@ -146,15 +146,17 @@ public class BaseBullet : MonoBehaviour
         Breakable b = collision.gameObject.GetComponent<Breakable>();
 
         string source = "Player";
+        string sourceAmmo = "Player-Bullet";
 
         if (enemyBullet)
         {
             source = "Enemy";
+            sourceAmmo = "Enemy_Bullet";
         }
 
         
 
-        if (collision.gameObject.tag != source)
+        if (collision.gameObject.tag != source && collision.gameObject.tag != sourceAmmo)
         {
             if (b != null)
             {
@@ -162,14 +164,37 @@ public class BaseBullet : MonoBehaviour
             }
             
             deathTimer = deathTime;
-            if (collision.gameObject.tag == "Unbreakable")
+
+            switch (collision.gameObject.tag) 
+            {
+                case "Ammo 1":
+                case "Ammo 2":
+                case "Ammo 3":
+                case "Ammo 4":
+                case "Ammo 5":
+                case "Ammo 6":
+                case "Ammo 7":
+                case "Ammo 8":
+                case "Ammo 9":
+                case "Health":
+                case "Shield":
+                    break;
+                case "Unbreakable":
+                    ChangeState(BulletStates.Blocked);
+                    break;
+                default:
+                    ChangeState(BulletStates.Hit);
+                    break;
+            }
+
+            /*if (collision.gameObject.tag == "Unbreakable")
             {
                 ChangeState(BulletStates.Blocked);
             }
             else
             {
                 ChangeState(BulletStates.Hit);
-            }
+            }*/
 
         }
 
