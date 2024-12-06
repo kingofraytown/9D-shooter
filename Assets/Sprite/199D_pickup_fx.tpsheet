@@ -1,0 +1,24 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:190fdf9cdd23c1938a6f25310c1fc712:0c318339eea3cbce9753966611c289e9:d27ebe846d420ec01e0c2d4d14f6103f$
+#
+:format=40300
+:texture=199D_pickup_fx.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+pick-up-fx-01;1829;385;218;485; 0.5;0.5; 0;0;0;0
+pick-up-fx-02;425;964;218;485; 0.5;0.5; 0;0;0;0
+pick-up-fx-03;1197;1562;218;485; 0.5;0.5; 0;0;0;0
+pick-up-fx-04;1;1;422;578; 0.5;0.5; 0;0;0;0
+pick-up-fx-05;1;871;422;578; 0.5;0.5; 0;0;0;0
+pick-up-fx-06;1625;872;422;578; 0.5;0.5; 0;0;0;0
+pick-up-fx-07;599;1451;596;596; 0.5;0.5; 0;0;0;0
+pick-up-fx-08;1;1451;596;596; 0.5;0.5; 0;0;0;0
+pick-up-fx-09;1451;1452;596;595; 0.5;0.5; 0;0;0;0

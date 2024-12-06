@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class music : MonoBehaviour
 {
-    private AudioSource _audioSource;
+    public FMODUnity.StudioEventEmitter bgm;
     private void Awake()
     {
         if(GameObject.FindGameObjectsWithTag("Music").Length > 1)
@@ -12,17 +12,15 @@ public class music : MonoBehaviour
             Destroy(gameObject);
         }
         DontDestroyOnLoad(transform.gameObject);
-        _audioSource = GetComponent<AudioSource>();
     }
 
-    public void PlayMusic()
+    public void ChangeMusic(int m)
     {
-        if (_audioSource.isPlaying) return;
-        _audioSource.Play();
+        //bgm.SetParameter("Music", m);
     }
 
-    public void StopMusic()
+    public void Stop()
     {
-        _audioSource.Stop();
+        bgm.Stop();
     }
 }

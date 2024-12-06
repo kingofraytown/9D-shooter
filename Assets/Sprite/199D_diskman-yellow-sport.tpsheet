@@ -4,19 +4,20 @@
 # To import these sprites into your Unity project, download "TexturePackerImporter":
 # https://www.codeandweb.com/texturepacker/unity
 #
-# $TexturePacker:SmartUpdate:338b62fa6b28fd73ddfbf26e51c819cb:73a64abddce637832cd437480ac6ef24:f19c6d815a53a30c4b948b242881e3dc$
+# $TexturePacker:SmartUpdate:25b909cb1d61f918cfceab6f904fbf16:1063e3981cdfcdc2a8e22d8633b5a306:f19c6d815a53a30c4b948b242881e3dc$
 #
 :format=40300
 :texture=199D_diskman-yellow-sport.png
-:size=512x512
+:size=512x1024
 :pivotpoints=enabled
 :borders=disabled
 :alphahandling=ClearTransparentPixels
 
-199D Sprite-16;4;224;303;284; 0.5;0.5; 0;0;0;0
-199D-Sprite-16-p1;391;134;111;121; 0.5;0.5; 0;0;0;0
-199D-Sprite-16-p2;4;51;114;165; 0.5;0.5; 0;0;0;0
-199D-Sprite-16-p3;315;263;138;109; 0.5;0.5; 0;0;0;0
-199D-Sprite-16-p4;254;67;129;149; 0.5;0.5; 0;0;0;0
-199D-Sprite-16-p5;126;54;120;162; 0.5;0.5; 0;0;0;0
-199D-Sprite-16-p6;315;380;146;128; 0.5;0.5; 0;0;0;0
+199D Sprite-16;4;736;303;284; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p1;269;490;111;121; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p2;4;406;114;165; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p3;315;775;138;109; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p4;4;579;129;149; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p5;141;566;120;162; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p6;315;892;146;128; 0.5;0.5; 0;0;0;0
+199D-Sprite-16-p7;315;619;135;148; 0.5;0.5; 0;0;0;0

@@ -1,0 +1,25 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:734d078ff0a7ec0dca716cf098a6f49d:daeeebe87008e5820ec0afb7cae6766c:1af3268e8f793059014e7f1472b29bdb$
+#
+:format=40300
+:texture=199D_Weapon_UI.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+9D-Weapon-UI-01;277;1512;858;301; 0.5;0.48504983388704315; 0;0;0;0
+9D-Weapon-UI-02;1135;1815;650;232; 0.5;0.5; 0;0;0;0
+9D-Weapon-UI-03;183;1957;950;90; 0.5;0.5; 0;0;0;0
+9D-Weapon-UI-04;1;1522;274;291; 0.5;0.48453608247422686; 0;0;0;0
+9D-Weapon-UI-05;1;1983;180;64; 0.5;0.5; 0;0;0;0
+9D-Weapon-UI-06;1137;1471;896;342; 0.5;0.5; 0;0;0;0
+9D-Weapon-UI-07;1;1123;900;346; 0.5;0.5; 0;0;0;0
+9D-Weapon-UI-08;903;1121;902;348; 0.5;0.5; 0;0;0;0
+9D-Weapon-UI-09;1;767;906;352; 0.5;0.5; 0;0;0;0
+9D-Weapon-UI-10;909;761;912;358; 0.5;0.5; 0;0;0;0

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0fe3fdcb265bb446a4c9b8658911f7c, type: 3}
   m_Name: Look Range - Long
   m_EditorClassIdentifier: 
-  gameFloat: 10
+  gameFloat: 25

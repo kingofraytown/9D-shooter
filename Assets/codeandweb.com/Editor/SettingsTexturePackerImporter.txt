@@ -1,5 +1,6 @@
 version: 2
 tpsheetFileNames:
+- Assets/Sprite/199D_beeper.tpsheet
 - Assets/Sprite/199D_black_regelia.tpsheet
 - Assets/Sprite/199D_blue_regelia.tpsheet
 - Assets/Sprite/199D_bullets.tpsheet
@@ -8,15 +9,25 @@ tpsheetFileNames:
 - Assets/Sprite/199D_diskman-old.tpsheet
 - Assets/Sprite/199D_diskman-yellow-sport.tpsheet
 - Assets/Sprite/199D_parallax_items.tpsheet
+- Assets/Sprite/199D_pickup_fx.tpsheet
 - Assets/Sprite/199D_red_regelia.tpsheet
+- Assets/Sprite/199D_ship_pieces.tpsheet
 - Assets/Sprite/199D_ship_plus.tpsheet
 - Assets/Sprite/199D_smoke.tpsheet
 - Assets/Sprite/199D_smoke_ammo.tpsheet
 - Assets/Sprite/199D_smoke_ammo_small.tpsheet
+- Assets/Sprite/199D_tamagotchi.tpsheet
+- Assets/Sprite/199D_Title Sprites.tpsheet
+- Assets/Sprite/199D_Weapon_UI.tpsheet
 - Assets/Sprite/199D-Resized-basics.tpsheet
+- Assets/Sprite/199D-shield-lv1.tpsheet
+- Assets/Sprite/199D-shield-lv2-3.tpsheet
+- Assets/Sprite/199D-shield-lv4-5.tpsheet
 - Assets/Sprite/9DT.tpsheet
 - Assets/Sprite/Jazz Flame.tpsheet
+- Assets/Sprite/sheild pieces.tpsheet
 textureFileNames:
+- Assets/Sprite/199D_beeper.png
 - Assets/Sprite/199D_black_regelia.png
 - Assets/Sprite/199D_blue_regelia.png
 - Assets/Sprite/199D_bullets.png
@@ -25,15 +36,34 @@ textureFileNames:
 - Assets/Sprite/199D_diskman-old.png
 - Assets/Sprite/199D_diskman-yellow-sport.png
 - Assets/Sprite/199D_parallax_items.png
+- Assets/Sprite/199D_pickup_fx.png
 - Assets/Sprite/199D_red_regelia.png
+- Assets/Sprite/199D_ship_pieces.png
 - Assets/Sprite/199D_ship_plus.png
 - Assets/Sprite/199D_smoke.png
 - Assets/Sprite/199D_smoke_ammo.png
 - Assets/Sprite/199D_smoke_ammo_small.png
+- Assets/Sprite/199D_tamagotchi.png
+- Assets/Sprite/199D_Title Sprites.png
+- Assets/Sprite/199D_Weapon_UI.png
 - Assets/Sprite/199D-Resized-basics.png
+- Assets/Sprite/199D-shield-lv1.png
+- Assets/Sprite/199D-shield-lv2-3.png
+- Assets/Sprite/199D-shield-lv4-5.png
 - Assets/Sprite/9DT.png
 - Assets/Sprite/Jazz Flame.png
+- Assets/Sprite/sheild pieces.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

@@ -154,8 +154,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1187770531
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1595348307, guid: 7046504ce362fd64ca1368befb39b656, type: 3}
   m_Color: {r: 0.73483664, g: 0.35857958, b: 0.9622642, a: 1}
@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 9043702240648402877}
   - component: {fileID: 5485709333093908763}
   - component: {fileID: 2058391707612705034}
+  - component: {fileID: 1367977874540579685}
   m_Layer: 0
   m_Name: Parallax Triangle Equal
   m_TagString: Untagged
@@ -244,15 +245,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 49653072, guid: cb9b84e0f44025d41aae1c541d5238cb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 9, y: 3.46}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &2058391707612705034
@@ -273,29 +274,29 @@ MonoBehaviour:
   ParallaxSmoothingX: 1
   ParallaxSmoothingY: 1
   ParallaxScalar: 0
-  AutoTileX: 0
+  AutoTileX: 1
   AutoTileY: 0
-  AutoMoveX: 0
+  AutoMoveX: 1
   AutoMoveY: 0
-  HorizontalSpeed: 0
+  HorizontalSpeed: -0.04
   VerticalSpeed: 0
   VerticalDistance: 0
   HorizontalDistance: 0
-  RandomizeVerticalDistance: 0
-  RandomizeHorizontalDistance: 0
-  RandomizeHorizontalYAxis: 0
+  RandomizeVerticalDistance: 1
+  RandomizeHorizontalDistance: 1
+  RandomizeHorizontalYAxis: 1
   RandomizeVerticalXAxis: 0
   UseRandomHistory: 1
   MaxPlacementHistorySize: 100
   PoolAmount: 1
   VerticalDistanceMin: 0
-  VerticalDistanceMax: 0
-  HorizontalDistanceMin: 0
-  HorizontalDistanceMax: 0
+  VerticalDistanceMax: 2
+  HorizontalDistanceMin: 4
+  HorizontalDistanceMax: 8
   VerticalXMin: 0
   VerticalXMax: 0
-  HorizontalYMin: 0
-  HorizontalYMax: 0
+  HorizontalYMin: -2
+  HorizontalYMax: 2
   RightTile: {fileID: 0}
   LeftTile: {fileID: 0}
   TopTile: {fileID: 0}
@@ -303,3 +304,17 @@ MonoBehaviour:
   row: 0
   col: 0
   ObjectID: 0
+--- !u!114 &1367977874540579685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8350094927848793512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6a423a744e20954b935341c3f05ab7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minRotation: 0
+  maxRotation: 359

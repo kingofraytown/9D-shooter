@@ -1,0 +1,24 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:a220029c49707eddb79bca89b2f1c940:4f7f00b016b47e1c3b81f0738e3d8eda:1a4c6923994b9110c2ce72e88735e727$
+#
+:format=40300
+:texture=199D-shield-lv1.png
+:size=1024x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+shield-lv1-01;383;1284;382;382; 0.5;0.5; 0;0;0;0
+shield-lv1-02;1;900;382;382; 0.5;0.5; 0;0;0;0
+shield-lv1-03;385;900;382;382; 0.5;0.5; 0;0;0;0
+shield-lv1-04;1;516;382;382; 0.5;0.5; 0;0;0;0
+shield-lv1-05;385;516;382;382; 0.5;0.5; 0;0;0;0
+shield-lv1-06;517;1668;379;379; 0.49868073878627966;0.5013192612137203; 0;0;0;0
+shield-lv1-07;1;1286;380;380; 0.5;0.5; 0;0;0;0
+shield-lv1-08;216;1748;299;299; 0.4983277591973244;0.5016722408026756; 0;0;0;0
+shield-lv1-09;1;1834;213;213; 0.49765258215962443;0.5023474178403755; 0;0;0;0

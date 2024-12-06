@@ -112,7 +112,7 @@ public class BaseBullet : MonoBehaviour
             source = "Enemy";
         }
 
-        if (collision.collider.tag != source) {
+        if ((collision.collider.tag != source) && (collision.collider.tag != "Goal")) {
             deathTimer = deathTime;
             if (collision.collider.tag == "Unbreakable")
             {
@@ -144,32 +144,62 @@ public class BaseBullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Breakable b = collision.gameObject.GetComponent<Breakable>();
+        PlayerHealth ph = collision.gameObject.GetComponent<PlayerHealth>();
 
         string source = "Player";
+        string sourceAmmo = "Player-Bullet";
 
         if (enemyBullet)
         {
             source = "Enemy";
+            sourceAmmo = "Enemy_Bullet";
         }
 
         
 
-        if (collision.gameObject.tag != source)
+        if (collision.gameObject.tag != source && collision.gameObject.tag != sourceAmmo)
         {
             if (b != null)
             {
                 b.TakeDamage(1);
             }
+            else if (ph != null)
+            {
+                ph.TakeDamage(1);
+            }
             
             deathTimer = deathTime;
-            if (collision.gameObject.tag == "Unbreakable")
+
+            switch (collision.gameObject.tag) 
+            {
+                case "Ammo 1":
+                case "Ammo 2":
+                case "Ammo 3":
+                case "Ammo 4":
+                case "Ammo 5":
+                case "Ammo 6":
+                case "Ammo 7":
+                case "Ammo 8":
+                case "Ammo 9":
+                case "Health":
+                case "Shield":
+                    break;
+                case "Unbreakable":
+                    ChangeState(BulletStates.Blocked);
+                    break;
+                default:
+                    ChangeState(BulletStates.Hit);
+                    break;
+            }
+
+            /*if (collision.gameObject.tag == "Unbreakable")
             {
                 ChangeState(BulletStates.Blocked);
             }
             else
             {
                 ChangeState(BulletStates.Hit);
-            }
+            }*/
 
         }
 

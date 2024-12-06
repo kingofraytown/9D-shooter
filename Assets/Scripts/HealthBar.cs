@@ -13,8 +13,14 @@ public class HealthBar : MonoBehaviour
     public GameObject hp3;
     public GameObject hp4;
     public GameObject hp5;
+    public GameObject sh1;
+    public GameObject sh2;
+    public GameObject sh3;
+    public GameObject sh4;
+    public GameObject sh5;
 
     public int health;
+    public int shield;
    
     // Start is called before the first frame update
     void Start()
@@ -33,6 +39,8 @@ public class HealthBar : MonoBehaviour
         PlayerHealth.PlayerDamageEvent += TakeDamage;
         PlayerController.AddHealthEvent += TakeHealth;
         PlayerController.PlayerDeathEvent += Die;
+        PlayerController.ActivateShieldEvent += ActivateShield;
+        ShieldController.PlayerShieldDamageEvent += TakeShieldDamage;
     }
 
     private void OnDisable()
@@ -40,11 +48,24 @@ public class HealthBar : MonoBehaviour
         PlayerHealth.PlayerDamageEvent -= TakeDamage;
         PlayerController.AddHealthEvent -= TakeHealth;
         PlayerController.PlayerDeathEvent -= Die;
+        PlayerController.ActivateShieldEvent -= ActivateShield;
+        ShieldController.PlayerShieldDamageEvent -= TakeShieldDamage;
     }
 
     public void Die()
     {
         TakeDamage(10);
+    }
+
+    public void ActivateShield()
+    {
+
+        shield = 5;
+        sh1.SetActive(true);
+        sh2.SetActive(true);
+        sh3.SetActive(true);
+        sh4.SetActive(true);
+        sh5.SetActive(true);
     }
 
     public void TakeHealth(int h)
@@ -148,5 +169,55 @@ public class HealthBar : MonoBehaviour
         }
 
         
+    }
+
+    public void TakeShieldDamage(int d)
+    {
+        shield -= d;
+        switch (shield)
+        {
+            case 5:
+                sh1.SetActive(true);
+                sh2.SetActive(true);
+                sh3.SetActive(true);
+                sh4.SetActive(true);
+                sh5.SetActive(true);
+                break;
+            case 4:
+                sh1.SetActive(false);
+                sh2.SetActive(true);
+                sh3.SetActive(true);
+                sh4.SetActive(true);
+                sh5.SetActive(true);
+                break;
+            case 3:
+                sh1.SetActive(false);
+                sh2.SetActive(false);
+                sh3.SetActive(true);
+                sh4.SetActive(true);
+                sh5.SetActive(true);
+                break;
+            case 2:
+                sh1.SetActive(false);
+                sh2.SetActive(false);
+                sh3.SetActive(false);
+                sh4.SetActive(true);
+                sh5.SetActive(true);
+                break;
+            case 1:
+                sh1.SetActive(false);
+                sh2.SetActive(false);
+                sh3.SetActive(false);
+                sh4.SetActive(false);
+                sh5.SetActive(true);
+                break;
+            default:
+                sh1.SetActive(false);
+                sh2.SetActive(false);
+                sh3.SetActive(false);
+                sh4.SetActive(false);
+                sh5.SetActive(false);
+                break;
+        }
     }
 }

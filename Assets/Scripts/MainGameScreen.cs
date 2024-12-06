@@ -24,7 +24,7 @@ public class MainGameScreen : MonoBehaviour
 
     public void Retry()
     {
-        SceneManager.LoadScene("Main Game");
+        SceneManager.LoadScene("Demo");
     }
 
     public void Title()

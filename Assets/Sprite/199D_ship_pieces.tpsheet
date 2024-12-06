@@ -1,0 +1,27 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:70fed37c1c82e1a4663f3014011ad85e:40e4ddf95d61ae5b15523d6f07d599c2:130b0852cda90ca55c64e6d4d385499b$
+#
+:format=40300
+:texture=199D_ship_pieces.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+t-piece-1;223;319;274;277; 0.5;0.5; 0;0;0;0
+t-piece-2;771;314;221;282; 0.5;0.5; 0;0;0;0
+t-piece-3;499;318;270;278; 0.5;0.5; 0;0;0;0
+t-piece-4;1;362;220;234; 0.5;0.5; 0;0;0;0
+t-piece-5;764;598;196;230; 0.5;0.5; 0;0;0;0
+t-piece-6;1;619;255;209; 0.5;0.5; 0;0;0;0
+t-piece-7;573;830;248;193; 0.5;0.5; 0;0;0;0
+t-piece-8;387;839;184;184; 0.5;0.5; 0;0;0;0
+t-piece-9;204;841;181;182; 0.5;0.5; 0;0;0;0
+t-piece-10;1;843;201;180; 0.5;0.5; 0;0;0;0
+t-piece-11;258;616;311;212; 0.5;0.5; 0;0;0;0
+t-piece-12;571;608;191;220; 0.5;0.5; 0;0;0;0
