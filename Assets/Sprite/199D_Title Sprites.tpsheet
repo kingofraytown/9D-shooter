@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:818fa70224cadf35a354c85d5edc5edf:e5f9621cdc1b47b7fd481f089c7bde15:8be5fe14a8e96fcf9af446b11d1de2da$
+#
+:format=40300
+:texture=199D_Title Sprites.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+199D words-01;1095;1728;697;319; 0.5;0.5; 0;0;0;0
+199D words-02;1;689;700;264; 0.5;0.5; 0;0;0;0
+199D words-03;1;955;1092;1092; 0.5;0.5; 0;0;0;0
+199D words-04;1;1;1129;391; 0.5;0.5; 0;0;0;0

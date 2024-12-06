@@ -1,0 +1,24 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:8e293373c3156ef0b7b8a3124579239a:5f38ae923b42baaa7726a7e804dade78:974feef2ebd3d8c7cb2801319f5abb29$
+#
+:format=40300
+:texture=199D_beeper.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+90s beeper-circuit blur;1;76;475;293; 0.5;0.5; 0;0;0;0
+199D_beeper-01;1;371;493;324; 0.5;0.5; 0;0;0;0
+199D_beeper-02;499;977;370;46; 0.5;0.5; 0;0;0;0
+199D_beeper-03;1;697;496;326; 0.5;0.5; 0;0;0;0
+199D_beeper-04;499;797;308;88; 0.5;0.5; 0;0;0;0
+199D_beeper-05;499;679;178;52; 0.5;0.5; 0;0;0;0
+199D_beeper-06;1;28;370;46; 0.5;0.5; 0;0;0;0
+199D_beeper-07;499;733;230;62; 0.5;0.5; 0;0;0;0
+199D_beeper-08;499;887;308;88; 0.5;0.5; 0;0;0;0

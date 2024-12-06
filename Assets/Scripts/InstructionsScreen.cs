@@ -19,6 +19,6 @@ public class InstructionsScreen : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("Main Game");
+        SceneManager.LoadScene("Demo");
     }
 }

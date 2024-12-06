@@ -90,7 +90,7 @@ public class ShieldController : MonoBehaviour
 
     public void ShieldHit(int d)
     {
-        shieldLevel = -d;
+        shieldLevel -= d;
         if(shieldLevel < 0)
         {
             shieldLevel = 0;

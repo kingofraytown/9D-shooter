@@ -112,7 +112,7 @@ public class BaseBullet : MonoBehaviour
             source = "Enemy";
         }
 
-        if (collision.collider.tag != source) {
+        if ((collision.collider.tag != source) && (collision.collider.tag != "Goal")) {
             deathTimer = deathTime;
             if (collision.collider.tag == "Unbreakable")
             {
@@ -144,6 +144,7 @@ public class BaseBullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Breakable b = collision.gameObject.GetComponent<Breakable>();
+        PlayerHealth ph = collision.gameObject.GetComponent<PlayerHealth>();
 
         string source = "Player";
         string sourceAmmo = "Player-Bullet";
@@ -161,6 +162,10 @@ public class BaseBullet : MonoBehaviour
             if (b != null)
             {
                 b.TakeDamage(1);
+            }
+            else if (ph != null)
+            {
+                ph.TakeDamage(1);
             }
             
             deathTimer = deathTime;

@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float smoothness = 0.1f;
     public Vector2 _movement;
-    Animator animator;
+    public Animator animator;
 
     public Gun[] guns; 
     public bool isFiringBullets = false;
@@ -76,6 +76,9 @@ public class PlayerController : MonoBehaviour
 
 
     Rigidbody2D _rigidbody2D;
+    public SpriteRenderer spriteRenderer;
+    public Sprite[] shipSkins;
+    public VFXController explosion;
 
 
     //public delegate void TakeDamageDelegate(int damage);
@@ -86,6 +89,9 @@ public class PlayerController : MonoBehaviour
 
     public delegate void TakeAmmoDelegate(int[] ammo);
     public static event TakeAmmoDelegate TakeAmmoEvent;
+
+    public delegate void UseAmmoDelegate(int[] ammo);
+    public static event UseAmmoDelegate UseAmmoEvent;
 
     public delegate void PlayerDeathDelegate();
     public static event PlayerDeathDelegate PlayerDeathEvent;
@@ -142,6 +148,7 @@ public class PlayerController : MonoBehaviour
             {
                 CurrentGun().StopFiring();
                 currentAmmoState = AmmoStates.Normal;
+                spriteRenderer.sprite = shipSkins[0];
             }
         }
 
@@ -174,9 +181,14 @@ public class PlayerController : MonoBehaviour
             if (PlayerDeathEvent != null)
             {
                 PlayerDeathEvent();
+                animator.SetBool("death", true);
+                explosion.TriggerVFX();
             }
-           
-            GameOverPanel.SetActive(true);
+
+            if (GameOverPanel != null)
+            {
+                GameOverPanel.SetActive(true);
+            }
             deathTimer = deathTime;
             health.currentState = PlayerHealth.healthState.None;
         }
@@ -274,9 +286,9 @@ public class PlayerController : MonoBehaviour
                 int newAmmo = ammoCrate[0];
                 ammoCrate.RemoveAt(0);
                 int[] tempArray = ammoCrate.ToArray();
-                if(TakeAmmoEvent != null)
+                if(UseAmmoEvent != null)
                 {
-                    TakeAmmoEvent(tempArray);
+                    UseAmmoEvent(tempArray);
                 }
                 
                 specialAmmoTimer = specialAmmoTime;
@@ -285,30 +297,39 @@ public class PlayerController : MonoBehaviour
                 {
                     case 1:
                         currentAmmoState = AmmoStates.Ammo1;
+                        spriteRenderer.sprite = shipSkins[1];
                         break;
                     case 2:
                         currentAmmoState = AmmoStates.Ammo2;
+                        spriteRenderer.sprite = shipSkins[2];
                         break;
                     case 3:
                         currentAmmoState = AmmoStates.Ammo3;
+                        spriteRenderer.sprite = shipSkins[3];
                         break;
                     case 4:
                         currentAmmoState = AmmoStates.Ammo4;
+                        spriteRenderer.sprite = shipSkins[4];
                         break;
                     case 5:
                         currentAmmoState = AmmoStates.Ammo5;
+                        spriteRenderer.sprite = shipSkins[5];
                         break;
                     case 6:
                         currentAmmoState = AmmoStates.Ammo6;
+                        spriteRenderer.sprite = shipSkins[6];
                         break;
                     case 7:
                         currentAmmoState = AmmoStates.Ammo7;
+                        spriteRenderer.sprite = shipSkins[7];
                         break;
                     case 8:
                         currentAmmoState = AmmoStates.Ammo8;
+                        spriteRenderer.sprite = shipSkins[8];
                         break;
                     case 9:
                         currentAmmoState = AmmoStates.Ammo9;
+                        spriteRenderer.sprite = shipSkins[9];
                         break;
                 }
             }
@@ -395,8 +416,26 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        VFXController vfx = collision.gameObject.GetComponent<VFXController>();
         switch (collision.gameObject.tag) {
             case "Breakable_Box":
+                if (isHurt == false)
+                {
+                    Breakable b = collision.gameObject.GetComponent<Breakable>();
+
+                    if (b != null)
+                    {
+                        b.TakeDamage(2);
+                    }
+
+                    health.TakeDamage(1);
+
+                    //PlayerHit();
+
+                    //PlayerDamageEvent(1);
+                }
+                break;
+            case "Unbreakable":
                 if (isHurt == false)
                 {
                     Breakable b = collision.gameObject.GetComponent<Breakable>();
@@ -417,69 +456,99 @@ public class PlayerController : MonoBehaviour
                 if (AddHealthEvent != null) {
                     AddHealthEvent(1);
                 }
-                collision.gameObject.SetActive(false);
+                if (vfx)
+                {
+                    vfx.TriggerVFX();
+                }
                 break;
             case "Ammo 1":
-                if (ammoCrate.Count < 9)
+                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(1);
-                    collision.gameObject.SetActive(false);
+                    if (vfx)
+                    {
+                        vfx.TriggerVFX();
+                    }
                 }
                 break;
             case "Ammo 2":
-                if (ammoCrate.Count < 9)
+                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(2);
-                    collision.gameObject.SetActive(false);
+                    if (vfx)
+                    {
+                        vfx.TriggerVFX();
+                    }
                 }
                 break;
             case "Ammo 3":
-                if (ammoCrate.Count < 9)
+                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(3);
-                    collision.gameObject.SetActive(false);
+                    if (vfx)
+                    {
+                        vfx.TriggerVFX();
+                    }
                 }
                 break;
             case "Ammo 4":
-                if (ammoCrate.Count < 9)
+                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(4);
-                    collision.gameObject.SetActive(false);
+                    if (vfx)
+                    {
+                        vfx.TriggerVFX();
+                    }
                 }
                 break;
             case "Ammo 5":
-                if (ammoCrate.Count < 9)
+                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(5);
-                    collision.gameObject.SetActive(false);
+                    if (vfx)
+                    {
+                        vfx.TriggerVFX();
+                    }
                 }
                 break;
             case "Ammo 6":
-                if (ammoCrate.Count < 9)
+                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(6);
-                    collision.gameObject.SetActive(false);
+                    if (vfx)
+                    {
+                        vfx.TriggerVFX();
+                    }
                 }
                 break;
             case "Ammo 7":
-                if (ammoCrate.Count < 9)
+                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(7);
-                    collision.gameObject.SetActive(false);
+                    if (vfx)
+                    {
+                        vfx.TriggerVFX();
+                    }
                 }
                 break;
             case "Ammo 8":
-                if (ammoCrate.Count < 9)
+                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(8);
-                    collision.gameObject.SetActive(false);
+                    if (vfx)
+                    {
+                        vfx.TriggerVFX();
+                    }
                 }
                 break;
             case "Ammo 9":
-                if (ammoCrate.Count < 9)
+                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(9);
-                    collision.gameObject.SetActive(false);
+                    if (vfx)
+                    {
+                        vfx.TriggerVFX();
+                    }
                 }
                 break;
             case "Enemy_Bullet":
@@ -505,6 +574,11 @@ public class PlayerController : MonoBehaviour
                 {
                     ActivateShieldEvent();
                 }
+
+                if (vfx)
+                {
+                    vfx.TriggerVFX();
+                }
                 break;
 
         }
@@ -527,6 +601,7 @@ public class PlayerController : MonoBehaviour
         {
             isHurt = true;
             hurtTimer = hurtTime;
+            animator.SetTrigger("hit");
             gameObject.transform.Translate(new Vector3(-1 * damageBounce, 0));
         }
 

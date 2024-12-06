@@ -1,0 +1,25 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:6e0a1735f0a058acd67d29a032cea306:951f3bdb99b30a4e10b3c3de5473a078:631d410c72c740d1bd80a9521de36fd1$
+#
+:format=40300
+:texture=199D_tamagotchi.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Tamagotchi-01;0;1536;658;512; 0.5;0.5; 0;0;0;0
+Tamagotchi-02;658;1536;658;512; 0.5;0.5; 0;0;0;0
+Tamagotchi-03;1316;1536;658;512; 0.5;0.5; 0;0;0;0
+Tamagotchi-04;0;1024;658;512; 0.5;0.5; 0;0;0;0
+Tamagotchi-05;658;1024;658;512; 0.5;0.5; 0;0;0;0
+Tamagotchi-06;1316;1024;658;512; 0.5;0.5; 0;0;0;0
+Tamagotchi-07;0;512;658;512; 0.5;0.5; 0;0;0;0
+Tamagotchi-08;658;512;658;512; 0.5;0.5; 0;0;0;0
+Tamagotchi-09;1316;512;658;512; 0.5;0.5; 0;0;0;0
+Tamagotchi-10;0;0;658;512; 0.5;0.5; 0;0;0;0

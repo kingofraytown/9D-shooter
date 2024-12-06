@@ -12,9 +12,18 @@ public class PlayerHealth : MonoBehaviour
     public delegate void TakeDamageDelegate(int damage);
     public static event TakeDamageDelegate PlayerDamageEvent;
 
-    public delegate void TakeShieldDamageDelegate(int shieldDamage);
-    public static event TakeShieldDamageDelegate PlayerShieldDamageEvent;
+    private void OnEnable()
+    {
+        ShieldController.PlayerShieldDamageEvent += ShieldTakeDamage;
+        PlayerController.ActivateShieldEvent += ShieldActivate;
 
+    }
+
+    private void OnDisable()
+    {
+        ShieldController.PlayerShieldDamageEvent -= ShieldTakeDamage;
+        PlayerController.ActivateShieldEvent -= ShieldActivate;
+    }
 
     public enum healthState
     {
@@ -30,8 +39,11 @@ public class PlayerHealth : MonoBehaviour
     {
         if (currentState == healthState.Full)
         {
-            PlayerDamageEvent(d);
-            health -= d;
+            if (shield <= 0)
+            {
+                PlayerDamageEvent(d);
+                health -= d;
+            }
             if (health <= 0)
             {
                 currentState = healthState.Destroyed;
@@ -42,6 +54,27 @@ public class PlayerHealth : MonoBehaviour
                 damageTimer = 0;
             }
         }
+    }
+
+    public void ShieldTakeDamage(int d)
+    {
+        shield -= d;
+
+        if (currentState == healthState.Full)
+        {
+            currentState = healthState.Damaged;
+            damageTimer = 0;
+        }
+
+        if (shield < 0)
+        {
+            shield = 0;
+        }
+    }
+    
+    public void ShieldActivate()
+    {
+        shield = 5;
     }
 
     void Update()
