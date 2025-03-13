@@ -149,6 +149,8 @@ public class PlayerController : MonoBehaviour
                 CurrentGun().StopFiring();
                 currentAmmoState = AmmoStates.Normal;
                 spriteRenderer.sprite = shipSkins[0];
+                ammoCrate.RemoveAt(0);
+                TakeAmmoEvent(ammoCrate.ToArray());
             }
         }
 
@@ -284,7 +286,7 @@ public class PlayerController : MonoBehaviour
 
 
                 int newAmmo = ammoCrate[0];
-                ammoCrate.RemoveAt(0);
+                //ammoCrate.RemoveAt(0);
                 int[] tempArray = ammoCrate.ToArray();
                 if(UseAmmoEvent != null)
                 {
@@ -462,7 +464,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case "Ammo 1":
-                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
+                if ((ammoCrate.Count < 9) )//&& (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(1);
                     if (vfx)
@@ -472,7 +474,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case "Ammo 2":
-                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
+                if ((ammoCrate.Count < 9) )//&& (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(2);
                     if (vfx)
@@ -482,7 +484,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case "Ammo 3":
-                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
+                if ((ammoCrate.Count < 9) )//&& (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(3);
                     if (vfx)
@@ -492,7 +494,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case "Ammo 4":
-                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
+                if ((ammoCrate.Count < 9) )//&& (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(4);
                     if (vfx)
@@ -502,7 +504,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case "Ammo 5":
-                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
+                if ((ammoCrate.Count < 9) )//&& (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(5);
                     if (vfx)
@@ -512,7 +514,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case "Ammo 6":
-                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
+                if ((ammoCrate.Count < 9) )//&& (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(6);
                     if (vfx)
@@ -522,7 +524,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case "Ammo 7":
-                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
+                if ((ammoCrate.Count < 9) )//&& (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(7);
                     if (vfx)
@@ -532,7 +534,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case "Ammo 8":
-                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
+                if ((ammoCrate.Count < 9) )//&& (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(8);
                     if (vfx)
@@ -542,7 +544,7 @@ public class PlayerController : MonoBehaviour
                 }
                 break;
             case "Ammo 9":
-                if ((ammoCrate.Count < 9) && (currentAmmoState == AmmoStates.Normal))
+                if ((ammoCrate.Count < 9))// && (currentAmmoState == AmmoStates.Normal))
                 {
                     LoadAmmo(9);
                     if (vfx)
